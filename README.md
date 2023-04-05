@@ -1,2 +1,6 @@
 # web2_server
-test
+## 後半部
+
+- git
+- gitHub
+- vscode

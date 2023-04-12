@@ -1,0 +1,80 @@
+:Base Trace.hlp>main
+1 Corel TRACE 開始前的準備
+2 概觀：Corel TRACE 開始前的準備=Overview Getting started with Corel TRACE>main
+2 開啟點陣圖影像=Opening bitmap images>proc4
+2 儲存影像與圖形=Saving images and graphics>proc4
+1 描繪點陣圖影像
+2 概觀：描繪點陣圖影像=Overview Tracing bitmap images>main
+2 描繪點陣圖影像=Tracing a bitmap image>proc4
+2 使用外框方式=Using the Outline method>proc4
+2 使用進階外框方式=Using the Advanced Outline method>proc4
+2 使用中心線方式=Using the Centerline method>proc4
+2 使用素描方式=Using the Sketch method>proc4
+2 使用馬賽克方式=Using the Mosaic method>proc4
+2 使用 3D 馬賽克方式=Using the 3D Mosaic method>proc4
+2 使用木刻方式=Using the Woodcut method>proc4
+1 在文件視窗中檢視
+2 概觀：在文件視窗中檢視=Overview Viewing in document windows>main
+2 使用顯示比例工具=Using the Zoom tool>proc4
+2 使用平移工具=Using the Pan tool>proc4
+2 變更文件視窗大小=Resizing document windows>proc4
+2 排列文件視窗=Arranging document windows>proc4
+2 清除向量圖=Clearing vector graphics>proc4
+2 檢視向量圖下的點陣圖影像=Viewing bitmap images under vector graphics>proc4
+2 用框架模式檢視向量圖=Viewing vector graphics in Wireframe mode>proc4
+1 變更點陣圖影像
+2 概觀：變更點陣圖影像=Overview Changing bitmap images>main
+2 用框架模式檢視向量圖=Inverting the colors of bitmap images>proc4
+2 將點陣圖影像轉換成黑白模式=Converting bitmap images to black and white mode>proc4
+2 將點陣圖影像轉換成灰階模式=Converting bitmap images to grayscale mode>proc4
+2 將點陣圖影像轉換成色盤式模式=Converting bitmap images to paletted mode>proc4
+2 翻轉點陣圖影像=Flipping bitmap images>proc4
+2 旋轉點陣圖影像=Rotating bitmap images>proc4
+2 編輯點陣圖影像=Editing bitmap images>proc4
+1 自訂 Corel 應用程式
+2 概觀：自訂 Corel 應用程式=Overview Customizing Corel applications>main
+2 自訂工作空間設定
+3 概觀：自訂工作空間設定=Overview Customizing workspace settings>main
+2 自訂快速鍵
+3 概觀：自訂快速鍵=Overview Customizing keyboard shortcuts>main
+3 指定及刪除快速鍵=Assigning and deleting keyboard shortcuts>proc4
+3 列印快速鍵=Printing keyboard shortcuts>proc4
+3 將快速鍵儲存成其他程式可讀取的格式=Saving keyboard shortcuts in a format readable by other programs>proc4
+2 自訂功能表
+3 改變功能表的順序=Changing the order of menus>proc4
+3 改變功能表指令的順序=Changing the order of menu commands>proc4
+3 新增、移除及更名功能表=Adding removing and renaming menus>proc4
+3 新增及移除功能表指令分隔符號=Adding removing and renaming menu commands>proc4
+3 新增及移除功能表指令分隔符號=Adding and removing menu command separators>proc4
+3 改變功能表及功能表指令捷徑=Changing menu and menu command shortcuts>proc4
+2 自訂工具列
+3 概觀：自訂工具列=Overview Customizing toolbars>main
+3 移動及改變工具列的大小=Moving and resizing a toolbar>proc4
+3 檢視工具列=Viewing a toolbar>proc4
+3 檢視或隱藏浮動工具列上的標題=Viewing or hiding titles on floating toolbars>proc4
+3 改變工具列按鈕及按鈕邊框的大小=Resizing toolbar buttons and button borders>proc4
+3 恢復內建工具列=Restoring builtin toolbars>proc4
+3 建立及刪除自訂工具列=Creating and deleting a custom toolbar>proc4
+3 更名自訂工具列=Renaming a custom toolbar>proc4
+3 新增工具列項目至自訂工具列=Adding toolbar items to a custom toolbar>proc4
+3 從自訂工具列移除工具列項目=Removing toolbar items from a custom toolbar>proc4
+3 重新排列自訂工具列中的工具列項目=Rearranging toolbar items on a custom toolbar>proc4
+3 移動及複製自訂工具列的工具列項目=Moving and copying toolbar items from a custom toolbar>proc4
+3 改變所有工具列按鈕的外觀=Changing the appearance of all toolbar buttons>proc4
+3 改變個別工具列按鈕的外觀=Changing the appearance of individual toolbar buttons>proc4
+3 編輯及恢復工具列按鈕=Editing and restoring toolbar buttons>proc4
+2 自訂屬性列
+3 概觀：自訂屬性列=Overview Customizing the Property Bar>main
+3 移動及改變屬性列的大小=Moving and resizing the Property Bar>proc4
+3 設定自訂屬性列=Setting up a custom Property Bar>proc4
+2 自訂狀態列
+3 概觀：自訂狀態列=Overview Customizing the Status Bar>main
+3 移動、恢復及改變狀態列的大小=Moving resizing and restoring the Status Bar>proc4
+3 隱藏或顯示狀態列=Hiding or displaying the Status Bar>proc4
+2 自訂過濾器
+3 概觀：自訂過濾器=Overview Customizing filters>main
+3 新增及移除過濾器=Adding and removing filters>proc4
+3 改變過濾器清單的順序=Changing the order of the list of filters>proc4
+3 重設過濾器為預設值=Resetting filters to default settings>proc4
+1 參考資料
+2 詞彙=TRACE Glossary Index>glossary

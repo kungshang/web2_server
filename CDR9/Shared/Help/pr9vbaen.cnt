@@ -1,0 +1,12 @@
+:Base pr9vbaen.hlp>commands
+:Title Corel Presentations and VBA Help
+:Link psmh90en.hlp
+1 PerfectScript Class Members
+2 Corel Presentations PerfectScript Class members=503>cmndlist
+2 VBA Programming issues relating to PerfectScript Class members=VBAProgramming>cmndlist
+1 Corel Presentations VBA Information
+2 Corel Presentations VBA Events=PresentationsVBAEvents>cmndlist
+2 Global Macros=WordPerfectGlobalMacros>cmndlist
+2 Using ActiveX components=IDC_ACTIVEX>cmndlist
+1 Corel Presentations main help
+2 Corel Presentations main help=!EF(`wppr9en.hlp'):EXIT()

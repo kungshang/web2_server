@@ -1,0 +1,34 @@
+:Base cse_scr.hlp
+:Title Corel SCRIPT
+1 Corel SCRIPT Editor commands and functions
+2 Alphabetical Listing of Commands and Functions=Alphabetical_CSE
+2 File commands and functions
+3 FileClose command/function (Corel SCRIPT Editor)=CSE_FileClose
+3 FileNew command (Corel SCRIPT Editor)=CSE_FileNew
+3 FileOpen command/function (Corel SCRIPT Editor)=CSE_FileOpen
+3 FileSave command/function (Corel SCRIPT Editor)=CSE_FileSave
+3 FileSaveAs command/function (Corel SCRIPT Editor)=CSE_FileSaveAs
+2 Debug commands and functions
+3 CheckSyntax command (Corel SCRIPT Editor)=CSE_checksyntax
+3 Execute command (Corel SCRIPT Editor)=CSE_execute
+3 Run command (Corel SCRIPT Editor)=CSE_Run
+2 Edit commands and functions
+3 AddLineAfter command/function (Corel SCRIPT Editor)=CSE_AddLineAfter
+3 AddLineBefore command/function (Corel SCRIPT Editor)=CSE_AddLineBefore
+3 DeleteLine command/function (Corel SCRIPT Editor)=CSE_DeleteLine
+3 GetLineText function (Corel SCRIPT Editor)=CSE_GetLineText
+3 ReplaceLine command/function (Corel SCRIPT Editor)=CSE_ReplaceLine
+2 Navigation commands and functions
+3 GetColumnNumber function (Corel SCRIPT Editor)=CSE_GetColumnNumber
+3 GetLineNumber function (Corel SCRIPT Editor)=CSE_GetLineNumber
+3 GoToColumn command/function (Corel SCRIPT Editor)=CSE_GoToColumn
+3 GoToEndOfDoc command/function (Corel SCRIPT Editor)=CSE_GoToEndOfDoc
+3 GoToLine command/function (Corel SCRIPT Editor)=CSE_GoToLine
+3 MoveLineDown command/function (Corel SCRIPT Editor)=CSE_MoveLineDown
+3 MoveLineUp command/function (Corel SCRIPT Editor)=CSE_MoveLineUp
+2 Advanced commands and functions
+3 MakeCAO command/function (Corel SCRIPT Editor)=CSE_MakeCAO
+3 MakeCSB command/function (Corel SCRIPT Editor)=CSE_MakeCSB
+3 MakeDLL command/function (Corel SCRIPT Editor)=CSE_MakeDLL
+3 MakeEXE command/function (Corel SCRIPT Editor)=CSE_MakeEXE
+3 SetVisible command (Corel SCRIPT Editor)=cse_SetVisible

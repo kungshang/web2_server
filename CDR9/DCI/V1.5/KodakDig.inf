@@ -1,0 +1,46 @@
+;
+; Copyright (c) 1998 FlashPoint Technology, Inc.  All rights reserved.
+;
+
+[Version]
+Signature = "$CHICAGO$"
+Class=USB
+Provider=FlashPoint Technology, Inc.
+
+[DIGITAClassReg]
+HKR,,,,DIGITA
+HKR,,SilentInstall,,1
+
+; Table of Contents
+[Manufacturer]
+%MfgName%=FTI
+
+[FTI]
+%USB\VID_040A&PID_0100.Device%=DIGITA.Install, USB\VID_040A&PID_0100
+%USB\VID_040A&PID_0110.Device%=DIGITA.Install, USB\VID_040A&PID_0110
+
+[DIGITA.Install]
+LogConfig=DIGITA.Log
+CopyFiles=DIGITA.Files,ControlApp.Files
+AddReg=DIGITA.Reg
+
+[DIGITA.Log]
+ConfigPriority=HARDWIRED
+
+[DIGITA.Files]
+DIGITA.SYS
+
+[DIGITA.Reg]
+HKR,,DevLoader,,*NTKERN
+HKR,,NTMPDriver,,DIGITA.SYS
+
+[DestinationDirs]
+DIGITA.Files=11
+ControlApp.Files=30,DIGITA
+DefaultDestDirs=11
+
+[Strings]
+MfgName="Eastman Kodak Company"
+USB\VID_040A&PID_0100.Device="KODAK DIGITAL SCIENCE DC220"
+USB\VID_040A&PID_0110.Device="KODAK DIGITAL SCIENCE DC260"
+StartUp="Software\Microsoft\Windows\CurrentVersion\Run"

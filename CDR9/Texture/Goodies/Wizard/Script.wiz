@@ -1,0 +1,223 @@
+;
+; This is the Texture Wizard script for Corel TEXTURE.
+;
+; Look in the "attributes.doc" file for attribute codes!
+;
+;Version History: First Version BGW
+;2/27/96 JDH: Added Wood1 through Wood3
+;4/9/96  JDH: Added Granites & Lighting
+;5/10/96 JDH: Final version with all paths working
+;7/26/96 LGW: Really Final Version
+;10/20/96 JDH: Some spelling changes for PC version
+-----------------------------------------------------------------------------------
+#INTRO_SCREEN
+pagetype: 0
+caption: 歡迎來到材質精靈﹗
+next: #DOC_SIZE
+-----------------------------------------------------------------------------------
+#DOC_SIZE				; choose the document size
+pagetype: 1
+caption: 選擇材質的尺寸
+next: #CHOOSE_TEXTURE
+-----------------------------------------------------------------------------------
+#CHOOSE_TEXTURE			; choose the type of texture to make...
+pagetype: 2
+caption: 選擇您要製作的材質類型
+apply: all
+option: 大理石/以綠色大理石開始並改變它/choosea.tex/#MARBLE1
+option: 木紋/以美麗的木紋開始/chooseb.tex/#WOOD1
+option: .花崗岩/美麗的花崗岩﹐您可以改變它的色彩及其它屬性/choosec.tex/#GRANITE1
+option: 標誌/以點陣圖格式應用您的標誌為材質/choosed.tex/#LOGO1
+option: 雲彩/豐富的雲彩﹐您可以改變它們的大小及色彩/choosee.tex/#CLOUDS1
+prev: #DOC_SIZE
+-----------------------------------------------------------------------------------
+#MARBLE1				; Marble color set
+pagetype: 2
+caption: 為您的大理石選擇一種色彩主題
+apply: colors
+option: 綠色/有白色紋路的綠色組合/marble1a.tex
+option: 地球色調/褐﹑紅及深黃色組合/marble1b.tex
+option: 黑-藍/有深淺紋路交錯的藍色石頭/marble1c.tex
+option: 粉紅/有深色斑點的粉紅紋路/marble1d.tex
+next: #MARBLE2
+-----------------------------------------------------------------------------------
+#MARBLE2				; Marble turbulence
+pagetype: 2
+caption: 選擇您需要的紋路變化量
+apply: attrs
+;
+; attributes 16 is turbulence
+;
+attribute: 16
+option: 少許/少許的紋路/marble2a.tex
+option: 中量/正常的紋路變化/marble2b.tex
+option: 大量/非常繁複的紋路/marble2c.tex
+option: 瘋狂/完全無法控制/marble2d.tex
+next: #MARBLE3
+-----------------------------------------------------------------------------------
+#MARBLE3				; Marble Cut 
+pagetype: 2
+caption: 選擇大理石的外觀
+apply: attrs
+;
+; attributes 6 - 15 are the cut information
+;
+attribute: 6
+attribute: 7
+attribute: 8
+attribute: 9
+attribute: 10
+attribute: 11
+attribute: 12
+attribute: 13
+attribute: 15
+option: .交叉/紋路互相以角度交叉/marble3a.tex
+option: 垂直/紋路自上而下/marble3b.tex
+option: 水平/紋路自左而右/marble3c.tex
+option: 斜紋/紋路自一個角至另一個角/marble3d.tex
+next: #LIGHT
+-----------------------------------------------------------------------------------
+#WOOD1				; Wood color set
+pagetype: 2
+caption: 為您的木紋選擇一種色彩主題
+apply: colors
+option: .翠松/柔和亮光的淡彩木紋/wood1a.tex
+option: .櫻桃/裝飾外觀的紅色木紋/wood1b.tex
+option: .楓樹/擁有相似外觀的另一種淡木/wood1c.tex
+option: .橡木/優美的木質地板色彩/wood1d.tex
+option: .黑漆/一種深黑色﹑擁有東方感覺的木材/wood1e.tex
+next: #WOOD2
+-----------------------------------------------------------------------------------
+#WOOD2				; Wood turbulence
+pagetype: 2
+caption: 選擇您需要的紋路變化量
+apply: attrs
+;
+; attributes 16 is turbulence
+;
+attribute: 16
+option: .無/直紋如優質松木/wood2a.tex
+option: .微量/正常量的紋路/wood2b.tex
+option: .較多/紋路目前正在搖動/wood2c.tex
+option: .粗糙/扭曲的紋路充滿整個畫面/wood2d.tex
+option: .樹節/扭曲﹑多節的木紋/wood2e.tex
+next: #WOOD3
+-----------------------------------------------------------------------------------
+#WOOD3				; Cutting through the wood
+pagetype: 2
+caption: 選擇一塊您需要的木紋外觀
+apply: attrs
+;
+; attributes 6 - 15 are the cut information
+;
+attribute: 6
+attribute: 7
+attribute: 8
+attribute: 9
+attribute: 10
+attribute: 11
+attribute: 12
+attribute: 13
+attribute: 15
+option: .交叉/紋路互相以角度交叉/wood3a.tex
+option: 縱向/以垂直鋸下的方式所產生的木板/wood3b.tex
+option: 橫向/以水平鋸開的方式所產生的木板/wood3c.tex
+option: 對角/以對角方式切開所產生的夾板外觀/wood3d.tex
+next: #LIGHT
+-----------------------------------------------------------------------------------
+#GRANITE1				; Granite color set
+pagetype: 2
+caption: 為您的花崗岩選擇一種色彩主題
+apply: colors
+option: 灰花崗岩/旋轉的黑白斑紋/granit1a.tex
+option: 藍青銅/旋轉的藍白色彩/granit1b.tex
+option: 粉紅建築石材/粉紅及紅色的輕微調和/granit1c.tex
+option: 褐色石材/如城鎮中常用的建築物/granit1d.tex
+option: 深綠/如翠玉般的深綠色/granit1e.tex
+next: #GRANITE2
+-----------------------------------------------------------------------------------
+#GRANITE2				; Granite magnification factor
+pagetype: 2
+caption: 選擇花崗岩的放大比例
+apply: attrs
+; attribute 62 is magnification
+attribute: 62
+option: .很小/非常接近/granit2a.tex
+option: .小/不是很接近/granit2b.tex
+option: .正常/最佳距離/granit2c.tex
+option: .較大/您目前看得很近/granit2d.tex
+option: .巨大/您正使用放大鏡/granit2e.tex
+next: #LIGHT
+-----------------------------------------------------------------------------------
+#LOGO1				; choose the logo picture
+pagetype: 3
+caption: 使用圖片為貼圖
+pictlayer: -1		; bump layer
+next: #LIGHT
+-----------------------------------------------------------------------------------
+#CLOUDS1				; Clouds color set
+pagetype: 2
+caption: 為您的雲彩選擇一種色彩主題
+apply: colors
+option: 棉絮般的藍天/藍天中單純的白雲/clouds1a.tex
+option: .暗藍/較暗的天色﹐較暗的藍天/clouds1b.tex
+option: 積亂雲/暴風雨前的暗灰雲/clouds1c.tex
+option: 夕陽/白日將盡﹐天空自橘色轉為藍色/clouds1d.tex
+next: #CLOUDS2
+-----------------------------------------------------------------------------------
+#CLOUDS2				; Cloud turbulence
+pagetype: 2
+caption: 選擇您雲彩所需的紋路變化量
+apply: attrs
+;
+; attributes 16 is turbulence
+; attribute 62 is magnification
+attribute: 62
+attribute: 16
+option: .平滑/高空中平滑的雲彩/clouds2a.tex
+option: 亂流/較多的變化及較小的雲彩/clouds2b.tex
+option: .稀疏/稀疏的雲彩/clouds2c.tex
+option: 狂暴/狂暴的暴風雨天空/clouds2d.tex
+next: #LIGHT
+-----------------------------------------------------------------------------------
+#LIGHT				; Lighting
+pagetype: 2
+caption: 為您的材質選擇光源設定
+apply: lights
+option: 修飾邊強調/當您使用修飾斜邊時最適合/lighta.tex
+option: 三束光/三束不同色彩的光線/lightb.tex
+option: .平光/一道明亮﹑廣泛的光線/lightc.tex
+option: 金屬化/兩道光線及金屬表面/lightd.tex
+option: 粗糙/粗糙表面及一道光源/lighte.tex
+option: 閃亮/閃亮平滑的表面及一道光源/lightf.tex
+next: #GEOMETRY
+-----------------------------------------------------------------------------------
+#GEOMETRY				; Surface geometry 
+pagetype: 2
+caption: 為您的材質選擇一種邊緣方式
+apply: attrs
+;
+; attribute 59 is geometry type, 60 is bevel width
+;
+attribute: 59
+attribute: 60
+option: .平板/材質邊緣無特別形狀/geom1a.tex
+option: 修飾斜邊/沿材質四周的斜角裝飾邊/geom1b.tex
+option: 圓角/材質的圓角邊緣/geom1c.tex
+option: 相片框/自您的材質斜切的相片框/geom1d.tex
+next: #END
+-----------------------------------------------------------------------------------
+#COMING_SOON			; Dummy page for stuff I havn't done yet... 
+pagetype: 2
+caption: 材質精靈的這個部份尚未完成
+apply: none
+option: Coming Soon /This part of the Texture Wizard is not done yet
+option: Coming Soon/This part of the Texture Wizard is not done yet
+option: Coming Soon/This part of the Texture Wizard is not done yet
+option: Coming Soon/This part of the Texture Wizard is not done yet
+next: #END
+-----------------------------------------------------------------------------------
+#END
+pagetype: -1
+-----------------------------------------------------------------------------------
+

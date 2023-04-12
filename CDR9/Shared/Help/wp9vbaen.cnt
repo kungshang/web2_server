@@ -1,0 +1,13 @@
+:Base wp9vbaen.hlp>commands
+:Title WordPerfect and VBA Macros Help
+:Index Macros Help=psmh90en.hlp
+:Link psmh90en.hlp
+1 PerfectScript Class Members
+2 WordPerfect PerfectScript Class Members=5007>cmndlist
+2 VBA Programming issues relating to PerfectScript Class Members=VBAProgramming>cmndlist
+1 WordPerfect VBA Information
+2 WordPerfect VBA Events=WordPerfectVBAEvents>cmndlist
+2 WordPerfect Global Macros=WordPerfectGlobalMacros>cmndlist
+2 Using ActiveX components=IDC_ACTIVEX>cmndlist
+1 WordPerfect main help
+2 WordPerfect main help=!EF(`wpwp9en.hlp'):EXIT()

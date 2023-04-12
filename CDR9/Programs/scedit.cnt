@@ -1,0 +1,598 @@
+:Base scedit.hlp>main
+:Title Corel SCRIPT
+:Index Corel SCRIPT=draw_scr.hlp
+:Index Corel SCRIPT=pp_scr.hlp
+:Index Corel SCRIPT=cse_scr.hlp
+:Index Corel SCRIPT=vent_scr.hlp
+1 Using Corel SCRIPT
+2 Using this online reference=Using this online reference
+2 Changes in Corel SCRIPT from version 6 to 7=Corel SCRIPT changes6
+2 Changes in Corel SCRIPT from version 7 to 8=Corel SCRIPT changes7
+2 Corel SCRIPT basics
+3 Introduction to scripts and Corel SCRIPT =Introduction_Scripts_Corel_script>main
+3 What is Corel SCRIPT?=What_is_Corel_SCRIPT>main
+3 Sample script=Sample_script_cs1
+3 Corel SCRIPT programming language=Corel_SCRIPT_programming_language>main
+3 Creating and modifying scripts=Creating and modifying scripts_cs>main
+3 Executing scripts=Executing_script_files>main
+3 Executing applications commands in the background=Executing applications commands in the background>main
+3 Sample scripts=script_files
+3 Script planning and designing tips=Script_planning_designing>main
+3 Corel applications supporting Corel SCRIPT and OLE Automation=SUPPORTS_CS2>main
+3 Corel SCRIPT file types=Corel SCRIPT file types>main
+3 Syntax and documentation conventions
+4 Corel SCRIPT syntax =Corel_SCRIPT_syntax>main
+4 Syntax for application commands and functions=Syntax for application commands and functions>main
+4 Syntax for programming statements and functions=Syntax for programming statements and functions>main
+4 Documentation syntax conventions=Documentation_syntax_conventions>main
+4 Corel SCRIPT programming statement syntax example=online_program_cs>main
+4 Corel SCRIPT application command syntax example=online_application_cs>main
+3 Compiling, errors, and debugging
+4 Compiling scripts=Compiling scripts>main
+4 Script programming errors and debugging=Script_programming_errors>main
+4 Compilation errors=Compilation_errors>main
+4 Run-time errors=Run_time_errors>main
+4 Logic errors=logic_errors>main
+2 Corel SCRIPT concepts
+3 Variables
+4 Variables=Using_Variables>main
+4 Variable names =Variables_names>main
+4 Variable availability=Variable_availability>main
+4 Explicitly declaring and assigning values to a variable=Explicitly_declaring >main
+4 Implicitly declaring and assigning values to a variable=Implicitly_declaring>main
+3 Data types
+4 Corel SCRIPT data type summary=Corel_SCRIPT_data_type_summary>main
+4 Variants=variants>main
+4 Strings=using_strings>main
+3 Constants
+4 Constants=Using_constants>main
+3 Operators
+4 Operators=Using_operators>main
+4 Operator precedence in Corel SCRIPT=Operator_precedence_in_Corel_SCRIPT>main
+3 Expressions
+4 Expressions=cs_expressions>main
+4 Precision in expressions using mixed data types=precision_expressions>main
+3 Arrays
+4 Arrays=Using_arrays>main
+4 Multi-dimensional arrays=multi_dimensional_arrays>main
+3 Procedures
+4 Script procedures=Script_procedures>main
+4 User-defined functions=User_defined_functions>main
+4 User-defined subroutines=User_defined_subroutines>main
+3 Flow Control
+4 Flow control statements=Using_flow_control_statements>main
+3 Comments
+4 Comments=comments>main
+3 Date and time
+4 Using date and time=Using_date_and_time>main
+4 Assigning values to date variables=Assigning_values_to_date_variables>main
+:include draw_scr.cnt
+:include pp_scr.cnt
+:include cse_scr.cnt
+:include vent_scr.cnt
+1 Corel SCRIPT programming statements and functions
+2 Corel SCRIPT programming statements and functions index =alphabetical_cs>main
+2 Operators
+3 Arithmetic Operators=Arithmetic_Operators>main
+3 Assignment Operator=Assignment_Operators>main
+3 Bitwise Operators=Bitwise_Operators>main
+3 Concatenation Operators=Concatenation_Operators>main
+3 Logical Operators=Logical_Operators>main
+3 Relational Operators=Relational_Operators>main
+3 Unary Operators=Unary_Operators>main
+2 Constants, Variable, and Array statements and functions
+3 CBOL function=cbool>main
+3 CCUR function=ccurr>main
+3 CDAT function=cdate>main
+3 CDBL function=cdouble>main
+3 CINT function=cint>main
+3 CLNG function=clong>main
+3 CONST statement=CONST>main
+3 CSNG function=cfloat>main
+3 CSTR function=cstring>main
+3 DEFINE statement=DEFINE>main
+3 DIM statement=DIM>main
+3 GETTYPE function=GETTYPE>main
+3 GLOBAL statement=GLOBAL>main
+3 LBOUND function=LBOUND>main
+3 LET statement=LET>main
+3 REDIM statement=REDIM>main
+3 SETEMPTY statement=SETEMPTY>main
+3 STATIC statement=STATIC>main
+3 UBOUND function=UBOUND>main
+3 UNDEF statement=UNDEF>main
+2 String functions
+3 ASC function=ASC>main
+3 CHR function=CHR>main
+3 INSTR function=INSTR>main
+3 LCASE function=LCASE>main
+3 LEFT function=LEFT>main
+3 LEN function=LEN>main
+3 LTRIM function=LTRIM>main
+3 MID function and statement=MID>main
+3 RIGHT function=RIGHT>main
+3 RTRIM function=RTRIM>main
+3 SPACE function=SPACE>main
+3 STR function=STR>main
+3 UCASE function=UCASE>main
+3 VAL function=VAL>main
+2 Procedure statements
+3 CALL statement=call>main
+3 DECLARE statement=DECLARE>main
+3 DECLARE...LIB statement=DECLARE_LIB>main
+3 FUNCTION...END FUNCTION statements=FUNCTION_END_FUNCTION>main
+3 SUB...END statements=SUB_end_sub>main
+2 Date and Time statements and functions
+3 BUILDDATE function=BUILDDATE
+3 BUILDTIME function=BUILDTIME>main
+3 FORMATDATE function=FORMATDATE>main
+3 FORMATTIME function=FORMATTIME>main
+3 GETCOMMANDLINE function=GETCOMMANDLINE >main
+3 GETCURRDATE function=GETCURRDATE >main
+3 GETDATEINFO function=GETDATEINFO>main
+3 GETTIMEINFO function=GETTIMEINFO>main
+3 SETCURRDATE statement=SETCURRDATE>main
+3 WAIT FOR statement=WAIT_FOR>main
+3 WAIT UNTIL statement=WAIT_UNTIL>main
+2 Flow control statements and functions
+3 DO...LOOP statements=DO_LOOP>main
+3 END statement=END>main
+3 EXIT statement=EXIT >main
+3 FAIL statement=fail>main
+3 FOR...NEXT statements=FOR_NEXT>main
+3 GOSUB...RETURN statements=GOSUB_RETURN>main
+3 GOTO statement=GOTO>main
+3 IF...THEN...ELSE...ENDIF statements=IF_THEN_ELSE_ENDIF>main
+3 ON ERROR statement=onerror>main
+3 REM statement=REM>main
+3 SELECT CASE statements=SELECT_CASE>main
+3 STOP statement=STOP>main
+3 WHILE...WEND statements=WHILE_WEND>main
+3 WITHOBJECT...END WITHOBJECT statements=WITH_end_with>main
+2 Operating system statements and functions
+3 ADDFOL statement=ADDFOL>main
+3 ADDRESBMP statement=ADDRESBMP>main
+3 BEEP statement=BEEP>main
+3 BEGINWAITCURSOR and ENDWAITCURSOR statements=BEGINWAITCURSOR_ENDWAITCURSOR>main
+3 COPY statement and function=copy>main
+3 FILEATTR function=FILEATTR>main
+3 FILEDATE function=FILEDATE>main
+3 FILEMODE function=FILEMODE>main
+3 FILEPOS function=FILEPOS>main
+3 FILESIZE function=FILESIZE>main
+3 FINDFIRSTFOLDER, FINDNEXTFOLDER functions=FINDFIRSTFOLDER_FINDNEXTFOLDER>main
+3 FREEFILE function=FREEFILE>main
+3 GETAPPHANDLE function=GETAPPHANDLE>main
+3 GETCURRFOLDER function=GETCurrfolder>main
+3 GETPROCESSINFO function=GETPROCESSINFO>main
+3 GETSCRIPTFOLDER function=GETSCRIPTfolder>main
+3 GETTEMPFOLDER function=GETTEMPfolder>main
+3 GETVERSION function=GETVERSION>main
+3 GETWINHANDLE function=GETWINHANDLE>main
+3 INCLUDE statement=INCLUDE>main
+3 KILL statement=KILL >main
+3 MKFOLDER statement and function=MKFOLDER>main
+3 REGISTRYQUERY function=REGISTRYQUERY >main
+3 RENAME statement and function=rename>main
+3 RMFOLDER statement and function=RMFOLDER>main
+3 SETCURRFOLDER statement=SETCurrfolder>main
+3 STARTPROCESS statement and function=STARTPROCESS>main
+2 Predefined dialog box statements
+3 GETCOLOR statement and function=GETCOLOR>main
+3 GETFILEBOX function=GETFILEBOX>main
+3 GETFOLDER function=GETFOLDER>main
+3 GETFONT statement and function=GETFONT>main
+3 INPUTBOX function=INPUTBOX>main
+3 MESSAGE statement=MESSAGE>main
+3 MESSAGEBOX function=MESSAGEBOX>main
+2 Custom dialog box statements and functions
+3 Static dialog box statements and functions
+4 BEGIN DIALOG...END DIALOG statements=BEGIN_END_DIALOG>main
+4 BITMAPBUTTON statement=BITMAPBUTTON>main
+4 CANCELBUTTON statement=CANCELBUTTON>main
+4 CHECKBOX statement=CHECKBOX>main
+4 COMBOBOX statement=COMBOBOX>main
+4 DDCOMBOBOX statement=DDCOMBOBOX>main
+4 DDLISTBOX statement=DDLISTBOX>main
+4 DIALOG statement=DIALOG>main
+4 GROUPBOX statement=GROUPBOX>main
+4 HELPBUTTON statement=HELPBUTTON>main
+4 HSLIDER statement=HSLIDER>main
+4 IMAGE statement=IMAGE>main
+4 IMAGELISTBOX statement=IMAGELISTBOX>main
+4 LISTBOX statement=LISTBOX>main
+4 OKBUTTON statement=OKBUTTON>main
+4 OPTIONBUTTON statement=OPTIONBUTTON>main
+4 OPTIONGROUP statement=OPTIONGROUP>main
+4 PROGRESS statement=PROGRESS>main
+4 PUSHBUTTON statement=PUSHBUTTON>main
+4 SPINCONTROL statement=SPINCONTROL>main
+4 STATUS statement=STATUS>main
+4 TEXT statement=TEXT>main
+4 TEXTBOX statement=TEXTBOX>main
+4 VSLIDER statement=VSLIDER>main
+3 Dynamic dialog box statements and functions
+4 BEGIN DIALOG...END DIALOG statements=BEGIN_END_DIALOG_dyn>main
+4 BITMAPBUTTON statement=BITMAPBUTTON_dyn>main
+4 CANCELBUTTON statement=CANCELBUTTON_dyn>main
+4 CHECKBOX statement=CHECKBOX_dyn>main
+4 COMBOBOX statement=COMBOBOX_dyn>main
+4 DDCOMBOBOX statement=DDCOMBOBOX_dyn>main
+4 DDLISTBOX statement=DDLISTBOX_dyn>main
+4 DIALOG statement=DIALOG_dyn>main
+4 GROUPBOX statement=GROUPBOX_dyn>main
+4 HELPBUTTON statement=HELPBUTTON_dyn>main
+4 HSLIDER statement=HSLIDER_dyn>main
+4 IMAGE statement=IMAGE_dyn>main
+4 IMAGELISTBOX statement=IMAGELISTBOX_dyn>main
+4 LISTBOX statement=LISTBOX_dyn>main
+4 OKBUTTON statement=OKBUTTON_dyn>main
+4 OPTIONBUTTON statement=OPTIONBUTTON_dyn>main
+4 OPTIONGROUP statement=OPTIONGROUP_dyn>main
+4 PROGRESS statement=PROGRESS_dyn>main
+4 PUSHBUTTON statement=PUSHBUTTON_dyn>main
+4 SPINCONTROL statement=SPINCONTROL_dyn>main
+4 STATUS statement=STATUS_dyn>main
+4 TEXT statement=TEXT_dyn>main
+4 TEXTBOX statement=TEXTBOX_dyn>main
+4 VSLIDER statement=VSLIDER_dyn>main
+3 Dynamic dialog box setting functions and statements
+4 ADDITEM function=ADDITEM>main
+4 CLOSEDIALOG function=CLOSEDIALOG>main
+4 ENABLE function=ENABLE>main
+4 GETBITMAPHEIGHT function=GETBITMAPHEIGHT>main
+4 GETBITMAPWIDTH function=GETBITMAPWIDTH>main
+4 GETHEIGHT function=GETHEIGHT>main
+4 GETHELPINDEX function=GETHELPINDEX>main
+4 GETHELPPATH function=GETHELPPATH>main
+4 GETID function=GETID>main
+4 GETIMAGE function=GETIMAGE>main
+4 GETINCREMENT function=GETINCREMENT>main
+4 GETITEM function=GETITEM>main
+4 GETITEMCOUNT function=GETITEMCOUNT>main
+4 GETLEFTPOSITION function=GETLEFTPOSITION>main
+4 GETMAXRANGE function=GETMAXRANGE>main
+4 GETMINRANGE function=GETMINRANGE>main
+4 GETPRECISION function=GETPRECISION>main
+4 GETSELECT function=GETSELECT>main
+4 GETSTYLE function=GETSTYLE>main
+4 GETTEXT function=GETTEXT>main
+4 GETTICK function=GETTICK>main
+4 GETTIMER function=GETTIMER>main
+4 GETTOPPOSITION function=GETTOPPOSITION>main
+4 GETVALUE function=GETVALUE>main
+4 GETWIDTH function=GETWIDTH>main
+4 MOVE function=MOVE>main
+4 REMOVEITEM function=REMOVEITEM>main
+4 RESET function=RESET>main
+4 SETARRAY function=SETARRAY>main
+4 SETBITMAPOFFSET function=SETBITMAPOFFSET>main
+4 SETDOUBLEMODE function=SETDOUBLEMODE>main
+4 SETHELPINDEX function=SETHELPINDEX>main
+4 SETHELPPATH function=SETHELPPATH>main
+4 SETIMAGE function=SETIMAGE>main
+4 SETINCREMENT function=SETINCREMENT>main
+4 SETMAXRANGE function=SETMAXRANGE>main
+4 SETMINRANGE function=SETMINRANGE>main
+4 SETPRECISION function=SETPRECISION>main
+4 SETSELECT function=SETSELECT>main
+4 SETSTYLE function=SETSTYLE>main
+4 SETTEXT function=SETTEXT >main
+4 SETTHREESTATE function=SETTHREESTATE>main
+4 SETTICK function=SETTICK>main
+4 SETTIMER function=SETTIMER>main
+4 SETVALUE function=SETVALUE>main
+4 SETVISIBLE function=SETVISIBLE>main
+4 STEP function=STEP>main
+4 WITH...END WITH statements=WITH_Dialog>main
+2 Math functions
+3 ABS function=ABS>main
+3 ACOS function=ACOS>main
+3 ASIN function=ASIN>main
+3 ATAN function=ATAN>main
+3 COS function=COS>main
+3 DEC function=DEC>main
+3 EXP function=EXP>main
+3 FIX function=FIX>main
+3 HEX function=HEX>main
+3 INT function=INT>main
+3 LN function=LN>main
+3 LOG function=LOG>main
+3 RANDOMIZE function=RANDOMIZE>main
+3 RND function=RND>main
+3 SGN function=sgn>main
+3 SIN function=SIN>main
+3 SQR function=SQR>main
+3 TAN function=TAN>main
+2 Measurement conversion functions
+3 ANGLECONVERT function=ANGLECONVERT>main
+3 FROMCENTIMETERS function=FROMCENTIMETERS>main
+3 FROMCICEROS function=FROMCICEROS>main
+3 FROMDIDOTS function=FROMDIDOTS>main
+3 FROMINCHES function=FROMINCHES>main
+3 FROMPICAS function=FROMPICAS>main
+3 FROMPOINTS function=FROMPOINTS>main
+3 LENGTHCONVERT function=LENGTHCONVERT>main
+3 TOCENTIMETERS function=TOCENTIMETERS>main
+3 TOCICEROS function=TOCICEROS>main
+3 TODIDOTS function=TODIDOTS >main
+3 TOINCHES function=TOINCHES>main
+3 TOPICAS function=TOPICAS>main
+3 TOPOINTS function=TOPOINTS >main
+2 File Input & Output statements and functions
+3 CLOSE statement=CLOSE>main
+3 EOF function=EOF>main
+3 INPUT function=INPUT_DOLLAR>main
+3 INPUT # statement=INPUT>main
+3 LINE INPUT statement=LINE_INPUT>main
+3 LOF function=LOF>main
+3 OPEN...APPEND statement=OPEN_APPEND>main
+3 OPEN...INPUT statement=OPEN_INPUT>main
+3 OPEN...OUTPUT statement=OPEN_OUTPUT>main
+3 PRINT statement=PRINT>main
+3 SEEK statement=SEEK>main
+3 WRITE statement=WRITE>main
+2 Corel SCRIPT Editor
+3 Corel SCRIPT Editor=Corel_SCRIPT_Editor>main
+3 Script windows and the Corel SCRIPT Editor=Corel_SCRIPT_Editor_windows>main
+3 Script basics=Corel_SCRIPT_Editor_Basics>main
+3 Formatting a script=Formatting_a_script>main
+3 Corel SCRIPT Editor debugging features=Corel_SCRIPT_Editor_Debugging_Features>main
+3 Corel SCRIPT Editor keyboard shortcuts=Corel_SCRIPT_Editor_keyboard_shortcuts>main
+3 Corel SCRIPT Editor and custom dialog boxes
+4 Using the Corel SCRIPT Editor to create dialog boxes =Corel_SCRIPT_Dialog_Editor>main
+4 Dialog windows and the Corel SCRIPT Editor=Dialog windows and the Corel SCRIPT Editor>main
+4 Working with dialog windows=Working_with_dialog_controls>main
+4 Dialog window features in the Corel SCRIPT Editor=Dialog window features in the Corel SCRIPT Editor>main
+4 Inserting and deleting dialog controls=Inserting_and_deleting_dialog_controls>main
+4 Editing dialog boxes and controls=Editing_dialogs_and_controls>main
+4 Aligning and distributing dialog controls=Aligning_and_distributing_dialog_controls>main
+4 Using dialog units to size and position dialog boxes and controls =Sizing_and_placing_dialogs_and_controls>main
+4 Default control sizes and labels=Default_control_sizes_and_labels>main
+4 Testing dialog boxes=Testing_dialogs>main
+2 Custom dialog boxes
+3 Corel SCRIPT and dialog boxes=Corel_SCRIPT_and_dialog_boxes>main
+3 Corel SCRIPT dialog controls=Corel_SCRIPT_dialog_controls>main
+3 Dialog controls summary=Dialog_controls_summary>main
+3 Static and dynamic dialog boxes=Static and dynamic dialog boxes>main
+3 Returning static dialog box settings to a script=Returning_dialog_settings_and_choices>main
+3 Changing focus in dialog boxes=Changing_focus_in_dialog_boxes>main
+3 Corel SCRIPT dialog box tips=Corel_SCRIPT_Dialog_Tips>main
+3 Dialog box conventions=Dialog_box_conventions>main
+3 Predefined dialog boxes in Corel SCRIPT=Predefined dialog boxes in Corel SCRIPT>main
+3 Dynamic dialog boxes
+4 Dynamic dialog box syntax=Dynamic dialog box syntax>main
+4 Dynamic Dialog Event Handler subroutine=Dynamic Dialog Event Handler subroutine>main
+4 Dialog Event Handler subroutine syntax=Dialog Event Handler subroutine syntax>main
+4 Using dynamic dialog box functions=Using dynamic dialog box functions>main
+4 Dynamic dialog functions listing=Dynamic_dialog_functions_listing>main
+3 Dynamic dialog box events
+4 Dialog Event 0: Dialog Initialization=Dialog Event 0>main
+4 Dialog Event 1: Change in content=Dialog Event 1>main
+4 Dialog Event 2: Change in control=Dialog Event 2>main
+4 Dialog Event 3: Double-clicking a list box item=Dialog Event 3>main
+4 Dialog Event 4: Change in focus=Dialog Event 4>main
+4 Dialog Event 5: Timer=Dialog Event 5>main
+4 Dialog Event 6: Resizing dialog box=Dialog Event 6>main
+3 Corel SCRIPT static dialog box script examples
+4 Check box example (static dialog)=checkbox_example>example
+4 List box example (static dialog)=listbox_example>example
+4 Drop-down list box example (static dialog)=dropdown_listbox_example>example
+4 Drop-down combo box example (static dialog)=dropdown_combobox_example>example
+4 Combo box example (static dialog)=combobox_example>example
+4 Text and text box example (static dialog)=textbox_example>example
+4 Option button, option group, and group box example (static dialog)=option_button_example>example
+4 OK, Cancel, Help and Push button example (static dialog)=pushbutton_example>example
+4 Bitmap button, sliders, and status bar example (static dialog)=bb_slide_example>example
+4 Example of all dialog controls (static dialog)=dialog_controls_all>example
+4 Spin control example (static dialog)=spin_control_example>example
+4 Image list box example (static dialog)=Image_listbox_example>example
+3 Corel SCRIPT dynamic dialog box script examples
+4 Example 1: Dynamic dialog box =ex1_dd>example
+4 Example 2: Dynamic dialog box=ex2_dd>example
+4 Example 3: Dynamic dialog box=ex3_dd>example
+4 Example 4: Dynamic dialog box=ex4_dd>example
+4 Example 5: Dynamic dialog box=ex5_dd>example
+4 Example 6: Dynamic dialog box=ex6_dd>example
+4 Example 7: Dynamic dialog box=ex7_dd>example
+4 Example 8: Dynamic dialog box=ex8_dd>example
+4 Example 9: Dynamic dialog box=ex9_dd>example
+4 Example 10: Dynamic dialog box=ex10_dd>example
+4 Example 11: Dynamic dialog box=ex11_dd>example
+4 Example 12: Dynamic dialog box=ex12_dd>example
+4 Example 13: Dynamic dialog box=ex13_dd>example
+4 Example 14: Dynamic dialog box=ex14_dd>example
+4 Example 15: Dynamic dialog box=ex15_dd>example
+4 Example 16: Dynamic dialog box=ex16_dd>example
+4 Example 17: Dynamic dialog box=ex17_dd>example
+4 Example 18: Dynamic dialog box=ex18_dd>example
+4 Example 19: Dynamic dialog box=ex19_dd>example
+4 Example 20: Dynamic dialog box=ex20_dd>example
+4 Example 21: Dynamic dialog box=ex21_dd>example
+4 Example 22: Dynamic dialog box=ex22_dd>example
+2 How to
+3 Using Corel SCRIPT
+4 To run a Corel SCRIPT script from a Corel application=app_play_script>proc4
+4 To execute a script from the Corel SCRIPT Editor=ht_play_script_cse>proc4
+4 To create a new script with the Corel SCRIPT Editor=ht_new_file_cse>proc4
+4 To print my own Corel SCRIPT manual=ht_print_manual_cs>proc4
+3 Using the Corel SCRIPT Editor
+4 Corel SCRIPT Editor basics
+5 To start the Corel SCRIPT Editor from the Windows 95 desktop=ht_start_cse_win>proc4
+5 To start the Corel SCRIPT Editor from Windows NT=ht_start_cse_win_nt>proc4
+5 To start the Corel SCRIPT Editor from a Corel application=ht_start_cse_app>proc4
+5 To start Corel SCRIPT Editor using the Windows 95/NT Run command=ht_start_run>proc4
+5 To start the Corel SCRIPT Editor with startup options=ht_start_cse_custom>proc4
+5 To run a Corel SCRIPT script from a Corel application=app_play_script>proc4
+5 To create a new script with the Corel SCRIPT Editor=ht_new_file_cse>proc4
+5 To open a Corel SCRIPT script=ht_open_file_cse>proc4
+5 To close a Corel SCRIPT script=ht_close_file_cse>proc4
+5 To save a Corel SCRIPT script=ht_save_file_cse>proc4
+5 To print a Corel SCRIPT script=ht_print_file_cse>proc4
+5 To close the Corel SCRIPT Editor=ht_exit_cse>proc4
+4 Creating and running Corel SCRIPT Executables, Binaries, DLLs, and Corel Add-ons
+5 To create a Corel SCRIPT Executable=ht_executable_file_cse>proc4
+5 To create a Corel SCRIPT Binary=ht_csb_file_cse>proc4
+5 To run a Corel SCRIPT Executable=ht_executable_file_run>proc4
+5 To create a dynamic link library=ht_dll_file_cse>proc4
+5 To create a Corel Add-on using Corel SCRIPT=ht_cao_file_cse>proc4
+4 Editing Corel SCRIPT scripts
+5 To copy text to another location=ht_copy_cse>proc4
+5 To cut text to move to another location=ht_cut_cse>proc4
+5 To delete text=ht_delete_text_cse>proc4
+5 To place REM statements at the beginning of script lines=ht_comment>proc4
+5 To remove REM statements from the beginning of script lines=ht_uncomment>proc4
+5 To find text=ht_find_text_cse>proc4
+5 To find and replace text=ht_find_replace_cse>proc4
+5 To undo editng operations=ht_cse_undo>proc4
+5 To restore changes reversed by the Undo command=ht_cse_redo>proc4
+5 To go to a line in the Corel SCRIPT Editor=ht_goto_line_cse>proc4
+4 Changing Corel SCRIPT Editor settings
+5 To automatically save scripts before executing them=ht_change_save_cse>proc4
+5 To view or hide Watch window =ht_watch>proc4
+5 To view or hide Compiler Output window=ht_compiler>proc4
+5 To change display colors in script windows=ht_change_colors_cse>proc4
+5 To change display and print fonts in script windows=ht_change_fonts_cse>proc4
+5 To change tab width in script windows=ht_change_tab_cse>proc4
+5 To set the folders search path for INCLUDE files=ht_folder_tab_cse>proc4
+5 To prevent scripts from using implicitly declared variables=ht_compiler_tab_cse>proc4
+4 Executing and debugging Corel SCRIPT scripts
+5 To execute a script from the Corel SCRIPT Editor=ht_play_script_cse>proc4
+5 To run a script from the Corel SCRIPT Editor in debug mode=ht_play_script_cse_debug>proc4
+5 To stop the execution of a script at a breakpoint=ht_reset_cse>proc4
+5 To interrupt an executing script=ht_interrupt_cse>proc4
+5 To restart a script while debugging=ht_restart_cse>proc4
+5 To execute a script one line at a time (Step Into)=ht_step_cse>proc4
+5 To execute a script one line at a time stepping over procedures (Step Over)=ht_trace_cse>proc4
+5 To execute a script to the first line after the current procedure call (Step Out)=ht_stepout_cse>proc4
+5 To add a variable to the Watch window=ht_add_watch_cse>proc4
+5 To delete a variable from the Watch window=ht_delete_watch_cse>proc4
+5 To display a variable's value using the QuickWatch=ht_display_variable_cse>proc4
+5 To add or remove a breakpoint=ht_breakpoint_cse>proc4
+5 To run a script to the cursor=ht_cursor_cse>proc4
+5 To clear all breakpoints=ht_breakpoint_clear_cse>proc4
+5 To check a Corel SCRIPT Script for syntax errors=ht_syntax_cse>proc4
+5 To use the Call Stack window=To use the Call Stack window>proc4
+5 To go to the next error in a script=ht_goto_next_cse>proc4
+5 To go to the previous error in a script=ht_goto_prev_cse>proc4
+4 Changing views in the Corel SCRIPT Editor
+5 To view all windows=ht_view_windows_cse>proc4
+5 To cascade windows in the Corel SCRIPT Editor=ht_view_cascade_cse>proc4
+5 To close all windows in the Corel SCRIPT Editor=ht_view_close_cse>proc4
+5 To arrange minimized windows=htcse_arrange_icons>proc4
+5 To keep the Corel SCRIPT Editor visible in Windows=ht_view_ontop_cse>proc4
+5 To view an open window in the Corel SCRIPT Editor=ht_view_open_cse>proc4
+4 Getting online Help from the Corel SCRIPT Editor
+5 To start online Help from Corel SCRIPT Editor=ht_cse_open_help>proc4
+5 To open Corel SCRIPT on-line Help to selected script syntax=ht_help_control>proc4
+5 To open on-line Help to a selected dialog control's syntax reference=de_help_control>proc4
+3 Using dialog windows in the Corel SCRIPT Editor
+4 Dialog window basics
+5 To add a dialog box to a script using the Corel SCRIPT Editor=htde_add_dialog>proc4
+5 To edit dialog box definition in a script using the Corel SCRIPT Editor=htde_edit_dialog>proc4
+5 To close a Corel SCRIPT dialog window=htde_close>proc4
+5 To save a dialog box as a separate script file=ht_export_cse>proc4
+5 To test a dialog box  =htde_test_dialog>proc4
+4 Editing dialog boxes and controls
+5 To copy a dialog box definition from a dialog window to a script window=htde_move_de_cse>proc4
+5 To move or copy a dialog control script statement to a dialog window=htde_move_cse_de>proc4
+5 To edit a dialog box's attributes=htde_dialog_attributes>proc4
+5 To resize a dialog box using the mouse=htde_dialog_mouse>proc4
+5 To move a dialog box using the mouse=htde_dialog_move_mouse>proc4
+5 To insert a control into a dialog box using the click method=htde_control_insert_click>proc4
+5 To insert a control into a dialog box using the click & drag method=htde_control_insert_drag>proc4
+5 To delete controls=htde_delete_control>proc4
+5 To cut a control to the Clipboard=htde_controls_cut>proc4
+5 To copy a control to the Clipboard=htde_control_copy>proc4
+5 To paste a copy of a control in a dialog box=htde_paste_controls>proc4
+5 To move a control in a dialog box using the mouse=htde_move_controls_mouse>proc4
+5 To move a control in a dialog box using the attributes box=htde_move_controls_box>proc4
+5 To move a control from one dialog box to another=htde_move_controls_another>proc4
+5 To resize a control in a dialog box using the mouse=htde_resize_control_mouse>proc4
+5 To resize a control in a dialog box using the attributes box=htde_controls_resize_box>proc4
+5 To edit a control's attributes using the attributes box=htde_edit_controls_attributes>proc4
+5 To duplicate a control=htde_control_duplicate>proc4
+4 Selecting dialog boxes and controls
+5 To select a control=htde_select_control>proc4
+5 To select a dialog box=htde_select_dialog_box>proc4
+5 To select multiple controls=htde_select_multiple_controls>proc4
+5 To marquee select controls=htde_controls_select_marquee>proc4
+5 To add or remove controls to a group of selected controls=htde_controls_select_add_remove>proc4
+5 To deselect all controls=htde_controls_deselect>proc4
+5 To select all controls in a dialog=htde_select_controls_all>proc4
+4 Aligning, distributing, and centering controls
+5 To align controls along their left edge=htde_align_left>proc4
+5 To align controls along their right edge=htde_align_right>proc4
+5 To align controls along their top edge=htde_align_top>proc4
+5 To align controls along their bottom edge=htde_align_bottom>proc4
+5 To make controls the same width=htde_controls_width>proc4
+5 To make controls the same height=htde_controls_height>proc4
+5 To make controls the same width and height=htde_controls_height_width>proc4
+5 To size a control to fit its label=htde_control_size_label>proc4
+5 To center controls vertically in a dialog box=htde_center_vert>proc4
+5 To center controls horizontally in a dialog box=htde_center_horz>proc4
+5 To even the spacing between controls horizontally within a dialog box=htde_controls_across>proc4
+5 To even the spacing between controls  vertically within a dialog box=htde_controls_down>proc4
+4 Changing dialog window settings
+5 To turn on or turn off Snap to Grid=htde_snap_grid>proc4
+5 To view or hide the grid=htde_view_grid>proc4
+5 To view or hide a dialog window's Properties bar  =ht_view_properties>proc4
+5 To set grid spacing=htde_grid_spacing>proc4
+4 Adding shortcut keys and changing tab order
+5 To add a shortcut key to a control that doesn't have a label=htde_control_shortcut>proc4
+5 To add a shortcut key to a control without a label=htde_shortcut_no_label>proc4
+5 To change dialog tab order=htde_tab_order>proc4
+5 To view or hide a dialog window's Controls List  =ht_view_controls>proc4
+3 Customizing the Corel SCRIPT Editor
+4 Customizing shortcut keys
+5 To assign an shortcut key to a command=To_assign_an_accelerator_key_to_a_command_cs>proc4
+5 To remove an shortcut key from a command=To_remove_an_accelerator_key_from_a_command_cs>proc4
+5 To restore all keyboard assignments to their original settings=To_restore_all_keyboard_assignments_to_their_original_settings_cs>proc4
+5 To save a set of customized keyboard assignments=To_save_a_set_of_customized_keyboard_assignments_cs>proc4
+5 To load a set of customized keyboard assignments=To_load_a_set_of_customized_keyboard_assignments>proc4
+4 Customizing menu commands
+5 To change the order of menus and menu commands=To_change_the_order_of_menus_and_menu_commands_cs>proc4
+5 To add a command to a menu=To_add_a_command_to_a_menu_cs>proc4
+5 To remove a menu or menu command=To_remove_a_menu_or_menu_command_cs>proc4
+5 To rename a menu=To_rename_a_menu_cs>proc4
+5 To change a menu command's shortcut key=To_change_a_menu_command_s_accelerator_key_cs>proc4
+5 To add a new menu=To_add_a_new_menu_cs>proc4
+5 To restore the original menu settings=To_restore_the_original_menu_settings_cs>proc4
+4 Customizing toolbars
+5 To move a toolbar=To_move_a_toolbar_cs>proc4
+5 To resize a toolbar=To_re_size_a_toolbar_cs>proc4
+5 To activate and hide an existing toolbar=To_display_an_existing_toolbar_cs>proc4
+5 To create a custom toolbar=To_create_a_custom_toolbar_cs>proc4
+5 To add a button to a toolbar=To_add_a_button_to_a_toolbar_cs>proc4
+5 To remove a button from a toolbar=To_remove_a_button_from_a_toolbar_cs>proc4
+5 To rename a toolbar=To_rename_a_toolbar_cs>proc4
+5 To move a toolbar button=To_move_a_toolbar_button_cs>proc4
+5 To delete a custom toolbar=To_delete_a_custom_toolbar_cs>proc4
+5 To restore the original configuration of a built-in toolbar=To_restore_the_original_configuration_of_a_built_in_toolbar_cs>proc4
+5 To add or remove applications from the Corel Application Launcher=ht_ca_launcher>proc4
+5 To launch applications from the Corel Application Launcher=ht_ca_launching>proc4
+4 Customizing the status bar
+5 To view or hide status bar=ht_statusbar>proc4
+5 To move the status bar to the top or bottom of the Corel SCRIPT Editor=To_move_the_status_bar_cs>proc4
+5 To change what the status bar displays=To_change_what_the_status_bar_displays_cs>proc4
+5 To change the height of the status bar=To_change_the_height_of_the_Status_bar_cs>proc4
+5 To reset the status bar to its original configuration=To_reset_the_Status_bar_to_its_original_configuration_cs>proc4
+3 Assigning scripts in the Editor and other Corel applications
+4 To assign a Corel SCRIPT script to a shortcut key=To_assign_an_accelerator_key_to_a_command>proc4
+4 To assign a Corel SCRIPT script to a menu=To_add_a_command_to_a_menu>proc4
+4 To assign a Corel SCRIPT script to a toolbar button=To_add_a_button_to_a_toolbar>proc4
+2 Advanced Corel SCRIPT features
+3 Using Dynamic Link Libraries=Using_Dynamic_Link_Libraries>main
+3 Creating Corel SCRIPT Executables, Binaries, DLLs, and Corel Add-ons=Creating Corel SCRIPT Executables>main
+3 Distributing Corel SCRIPT Executables, Binaries, DLLs, and Corel Add-ons=Distributing_cs_exe>main
+3 OLE Automation
+4 Corel SCRIPT and OLE automation=ole_automation>main
+4 Using Corel applications with OLE automation controllers  =using_ole>main
+4 Using Corel SCRIPT application commands: an example=ole_automation_example>main
+4 Corel SCRIPT Editor: OLE automation controller=Editor_ole>main
+1 Reference
+2 Glossary=a>main
+2 Corel SCRIPT character map=CS_Character_Map>main
+2 Reserved words=reserved_words
+2 Mathematical functions=math_paste>main
+2 Error codes=Trappable_error_codes>main

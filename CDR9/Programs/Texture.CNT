@@ -1,0 +1,100 @@
+:Base texture.hlp>main
+1 使用 Corel TEXTURE
+2 概觀：使用 Corel TEXTURE=Overview Using Corel TEXTURE>main
+2 概觀：切割物件以建立表面=Overview Creating a surface by slicing an object>main
+2 概觀：未建構的材質設計=Overview Unrendered texture designs>main
+2 概觀：已建構的材質設計=Overview Rendered texture designs>main
+2 開始使用 Corel TEXTURE
+3 概觀：開始使用 Corel TEXTURE=Overview Getting started with Corel TEXTURE>main
+3 自空白材質建立新材質=Creating a texture from a blank texture>proc4
+3 藉由修改預設材質建立材質=Creating a texture by modifying a preset texture>proc4
+3 使用材質精靈建立材質=Creating a texture using the Texture wizard>proc4
+3 指定材質大小與解析度=Specifying texture size and resolution>proc4
+2 定義光源屬性
+3 概觀：定義光源屬性=Overview Defining lighting properties>main
+3 設定光源屬性
+4 概觀：設定光源屬性=Overview Setting lighting properties>main
+4 開啟與關閉光源=Turning lights on and off>proc4
+4 放置光源於材質表面=Positioning a light on a texture surface>proc4
+4 調整泛光光源=Adjusting the ambient light>proc4
+4 調整陰影=Adjusting the shading>proc4
+4 調整強光=Adjusting the Highlights>proc4
+4 應用預設的光源效果=Applying a preset lighting effect>proc4
+3 應用色彩至光源
+4 概觀：應用色彩至光源=Overview Applying color to lights>main
+4 應用色彩至光源=Applying color to a light>proc4
+4 變更光源色彩=Changing the color of a light>proc4
+2 瞭解表面屬性
+3 概觀：瞭解表面屬性=Overview Understanding Surface properties>main
+3 設定表面屬性=Setting Surface properties>proc4
+2 瞭解陰影圖層
+3 概觀：瞭解陰影圖層=Overview Understanding shader layers>main
+3 瞭解陰影圖層
+4 概觀：定義陰影圖層=Overview Defining shader layers>main
+4 定義陰影圖層=Defining shader layers>proc4
+3 處理陰影圖層
+4 概觀：處理陰影圖層=Overview Manipulating shader layers>main
+4 刪除陰影圖層=Deleting a shader layer>proc4
+4 變更陰影圖層的順序=Changing the order of a shader layer>proc4
+4 複製與貼上陰影圖層至其他材質=Copying and pasting a shader layer into another texture>proc4
+4 儲存材質中的陰影圖層=Saving a shader layer in a texture>proc4
+4 啟動與取消陰影圖層=Enabling and disabling a shader layer>proc4
+3 應用色彩至圖層
+4 概觀：應用色彩至圖層=Overview Applying color to layers>main
+4 新增色彩插針至色彩漸層列=Adding a color pin to the color gradient bar>proc4
+4 自色彩漸層列中移除色彩插針=Removing a color pin from the color gradient bar>proc4
+4 變更色彩插針的色彩=Changing the color of a color pin>proc4
+4 儲存色彩漸層列中的色彩集=Saving a color set contained in the color gradient bar>proc4
+4 將預設色彩集載入色彩漸層列=Loading a preset color set into the color gradient bar>proc4
+3 應用漸變設定
+4 概觀：應用漸變設定=Overview Applying blend settings>main
+4 應用透明色彩至陰影圖層=Applying a transparent color to a shader layer>proc4
+4 應用加成漸變設定至陰影圖層=Applying the additive blend setting to a shader layer>proc4
+4 應用減色漸變設定至陰影圖層=Applying the subtractive blend setting to a shader layer>proc4
+4 應用較亮漸變設定至陰影圖層=Applying the lighten blend setting to a shader layer>proc4
+4 應用較暗漸變設定至陰影圖層=Applying the darken blend setting to a shader layer>proc4
+4 應用陰影漸變設定至陰影圖層=Applying the shade blend setting to a shader layer>proc4
+4 應用色相偏移漸變設定至陰影圖層=Applying the hue shift blend setting to a shader layer>proc4
+4 應用多重漸變設定至陰影圖層=Applying the multiply blend setting to a shader layer>proc4
+3 陰影圖層演算法設定
+4 概觀：陰影圖層演算法設定=Overview Shader layer algorithm settings>main
+4 應用預設演算法至陰影圖層=Applying a preset algorithm to a shader layer>proc4
+4 應用彩色演算法至陰影圖層=Applying the colored algorithm to a shader layer>proc4
+4 應用雲彩演算法至陰影圖層=Applying the clouds algorithm to a shader layer>proc4
+4 應用石紋演算法至陰影圖層=Applying the marble algorithm to a shader layer>proc4
+4 應用木紋演算法至陰影圖層=Applying the wood algorithm to a shader layer>proc4
+4 應用棋盤演算法至陰影圖層=Applying the checkers algorithm to a shader layer>proc4
+4 應用點演算法至陰影圖層=Applying the spots algorithm to a shader layer>proc4
+4 應用瑪瑙演算法至陰影圖層=Applying the agate algorithm to a shader layer>proc4
+4 應用花崗石演算法至陰影圖層=Applying the granite algorithm to a shader layer>proc4
+4 應用圓點花樣演算法至陰影圖層=Applying the polka dots algorithm to a shader layer>proc4
+4 應用包裝演算法至陰影圖層=Applying the wrapped algorithm to a shader layer>proc4
+4 應用碎形演算法至陰影圖層=Applying the fractal algorithm to a shader layer>proc4
+4 應用編織演算法至陰影圖層=Applying the weave algorithm to a shader layer>proc4
+4 應用乾草演算法至陰影圖層=Applying the wisps algorithm to a shader layer>proc4
+4 應用雜點演算法至陰影圖層=Applying the noise algorithm to a shader layer>proc4
+4 應用細胞狀演算法至陰影圖層=Applying the cellular algorithm to a shader layer>proc4
+4 輸入圖片至陰影圖層=Importing a picture into a shader layer>proc4
+2 定義幾何形狀
+3 概觀：定義幾何形狀=Overview Defining form and geometry>main
+3 幾何形狀演算法設定
+4 概觀：幾何形狀演算法設定=Overview Form and Geometry algorithm settings>main
+4 應用波浪演算法=Applying the wave algorithm>proc4
+4 應用漣漪演算法=Applying the ripples algorithm>proc4
+4 應用皺紋演算法=Applying the wrinkles algorithm>proc4
+4 應用隆起演算法=Applying the bumps algorithm>proc4
+4 應用凹痕演算法=Applying the dents algorithm>proc4
+4 應用凹凸貼圖演算法=Applying the bump map algorithm>proc4
+4 應用細胞狀演算法=Applying the cellular algorithm>proc4
+4 建立編織花紋=Creating a weave pattern>proc4
+3 建立具有邊緣的立體效果
+4 概觀：建立具有邊緣的立體效果=Overview Creating threedimensional effects with edges>main
+4 定義邊緣屬性=Defining edge properties>proc4
+2 建構材質
+3 概觀：建構材質=Overview Rendering textures>main
+3 建構材質至視窗=Rendering a texture to a window>proc4
+3 建構材質至檔案=Rendering a texture to a file>proc4
+3 自材質設計建立拼接花紋=Creating a tile pattern from a texture design>proc4
+3 將材質儲存為未建構的格式=Saving texture designs in an unrendered format>proc4
+1 參考資料
+2 詞彙=Entire Glossary Glossary Index

@@ -1,0 +1,299 @@
+; Bitstream WGL4 Font Installation for Corel
+; Copyright (c) 1997 Bitstream Inc.
+
+[version]
+signature="$CHICAGO$"
+SetupClass=BASE
+Provider="Bitstream Inc"
+
+[SourceDisksNames]
+101 = "Bitstream Font Disk", "", 0
+
+[SourceDisksFiles]
+; Swis721 Win95BT, normal, italic, bold, bold italic
+TT0003C_.ttf = 101,,  91,504
+TT0004C_.ttf = 101,,  88,060
+TT0005C_.ttf = 101,,  93,308
+TT0006C_.ttf = 101,,  87,300
+; Dutch801 Win95BT, normal, italic, bold, bold italic
+TT0011C_.ttf = 101,, 132,768
+TT0012C_.ttf = 101,, 126,064
+TT0013C_.ttf = 101,, 125,904
+TT0014C_.ttf = 101,, 126,292
+; Baskerville Win95BT, normal, italic, bold, bold italic
+TT0031C_.ttf = 101,, 147,296
+TT0032C_.ttf = 101,, 142,120
+TT0033C_.ttf = 101,, 129,744
+TT0034C_.ttf = 101,, 130,780
+; CentSchbok Win95BT, normal, italic, bold, bold italic
+TT0083C_.ttf = 101,, 135,028
+TT0084C_.ttf = 101,, 138,592
+TT0085C_.ttf = 101,, 135,224
+TT0086C_.ttf = 101,, 140,232
+; PosterBodoni Win95BT
+TT0129C_.ttf = 101,, 113,164
+; Zurich Win95BT, normal, italic, bold, bold italic
+TT0178C_.ttf = 101,,  84,656
+TT0179C_.ttf = 101,,  93,984
+TT0180C_.ttf = 101,,  90,256
+TT0181C_.ttf = 101,,  94,212
+; Zurich Blk  Win95BT
+TT0182C_.ttf = 101,,  98,428
+; FuturaBlack Win95BT
+TT0206C_.ttf = 101,,  78,224
+; Courier10 Win95BT, normal and bold
+TT0419C_.ttf = 101,, 148,220
+TT0583C_.ttf = 101,, 132,704
+; Monospac821 Win95BT, normal and bold
+TT0596C_.ttf = 101,,  91,300
+TT0598C_.ttf = 101,,  94,416
+; AdLib Win95BT	
+TT1154C_.ttf = 101,, 111,100
+; OzHandicraft Win95BT
+TT1178C_.ttf = 101,, 126,040
+; Chianti Win95BT
+TT1210C_.ttf = 101,, 122,900
+; Chianti It Win95BT
+TT1211C_.ttf = 101,, 111,484
+; Chianti Win95BT Bold
+TT1212C_.ttf = 101,, 123,704
+; Chianti BdIt Win95BT
+TT1213C_.ttf = 101,, 105,860
+
+
+[DestinationDirs]
+Corel_BT_AddFonts          = 20  ; Font directory LDID
+
+
+[Optional Components]
+Corel_BT_FontSet
+Corel_BT_Fonts
+MultilingualCodePages
+BalticAdd_CodePage
+CentralEuropeAdd_CodePage
+CyrillicAdd_CodePage
+GreekAdd_CodePage
+TurkishAdd_CodePage
+
+[DefaultInstall]
+;  install all Fonts and update Win.Ini Records for all fonts and languages
+CopyFiles   = Corel_BT_AddFonts
+InstallType = 10
+UpdateInis  = BalticFontSubsToAdd, CyrillicFontSubsToAdd, CentralEuropeFontSubsToAdd, GreekFontSubsToAdd, TurkishFontSubsToAdd, TTFCache_delete
+Reboot      = 1
+;
+[Corel_BT_FontSet]
+OptionDesc  = "Bitstream WGL4 Fonts"
+Tip         = %Corel_BT_FontSet_TIP%
+IconIndex   = 38
+CopyFiles   = Corel_BT_AddFonts
+InstallType = 10
+UpdateInis  = BalticFontSubsToAdd, CyrillicFontSubsToAdd, CentralEuropeFontSubsToAdd, GreekFontSubsToAdd, TurkishFontSubsToAdd, TTFCache_delete
+Reboot      = 1
+
+[Corel_BT_Fonts]
+OptionDesc  = " Bitstream WGL4 Fonts"
+Tip         = %Corel_BT_Fonts_TIP%
+IconIndex   = 0
+Parent      = Corel_BT_FontSet
+CopyFiles   = Corel_BT_AddFonts
+InstallType = 10
+UpdateInis  = TTFCache_delete
+Reboot      = 1
+
+[MultilingualCodePageTop]
+OptionDesc  = %MultilingualCodePages_DESC%
+Tip         = %MultilingualCodePages_TIP%
+IconIndex   = 50
+Parent      = Corel_BT_FontSet
+Reboot      = 1
+
+[BalticAdd_CodePage]
+OptionDesc  = %BalticCodePage_DESC%
+Tip         = %BalticCodePage_TIP%
+IconIndex   = 50
+Parent      = MultilingualCodePages
+InstallType = 10
+UpdateInis  = BalticFontSubsToAdd, TTFCache_delete
+Reboot      = 1
+
+[CentralEuropeAdd_CodePage]
+OptionDesc  = %CentralEuropeCodePage_DESC%
+Tip         = %CentralEuropeCodePage_TIP%
+IconIndex   = 50
+Parent      = MultilingualCodePages
+InstallType = 10
+UpdateInis  = CentralEuropeFontSubsToAdd, TTFCache_delete
+Reboot      = 1
+
+[CyrillicAdd_CodePage]
+OptionDesc  = %CyrillicCodePage_DESC%
+Tip         = %CyrillicCodePage_TIP%
+IconIndex   = 50
+Parent      = MultilingualCodePages
+InstallType = 10
+UpdateInis  = CyrillicFontSubsToAdd, TTFCache_delete
+Reboot      = 1
+
+[GreekAdd_CodePage]
+OptionDesc  = %GreekCodePage_DESC%
+Tip         = %GreekCodePage_TIP%
+IconIndex   = 50
+Parent      = MultilingualCodePages
+InstallType = 10
+UpdateInis  = GreekFontSubsToAdd, TTFCache_delete
+Reboot      = 1
+
+[TurkishAdd_CodePage]
+OptionDesc  = %TurkishCodePage_DESC%
+Tip         = %TurkishCodePage_TIP%
+IconIndex   = 50
+Parent      = MultilingualCodePages
+InstallType = 10
+UpdateInis  = TurkishFontSubsToAdd, TTFCache_delete
+Reboot      = 1
+
+[BalticFontSubsToAdd]
+win.ini,FontSubstitutes,,"AdLib Win95BT Baltic,186=AdLib Win95BT,186"
+win.ini,FontSubstitutes,,"Baskerville Win95BT Baltic,186=Baskerville Win95BT,186"
+win.ini,FontSubstitutes,,"CentSchbook Win95BT Baltic,186=CentSchbook Win95BT,186"
+win.ini,FontSubstitutes,,"Chianti Win95BT Baltic,186=Chianti Win95BT,186"
+win.ini,FontSubstitutes,,"Chianti It Win95BT Baltic,186=Chianti It Win95BT,186"
+win.ini,FontSubstitutes,,"Chianti BdIt Win95BT Baltic,186=Chianti BdIt Win95BT,186"
+win.ini,FontSubstitutes,,"Courier10 Win95BT Baltic,186=Courier10 Win95BT,186"
+win.ini,FontSubstitutes,,"Dutch801 Rm Win95BT Baltic,186=Dutch801 Rm Win95BT,186"
+win.ini,FontSubstitutes,,"FuturaBlack Win95BT Baltic,186=FuturaBlack Win95BT,186"
+win.ini,FontSubstitutes,,"Monospac821 Win95BT Baltic,186=Monospac821 Win95BT,186"
+win.ini,FontSubstitutes,,"OzHandicraft Win95BT Baltic,186=OzHandicraft Win95BT,186"
+win.ini,FontSubstitutes,,"PosterBodoni Win95BT Baltic,186=PosterBodoni Win95BT,186"
+win.ini,FontSubstitutes,,"Swis721 Win95BT Baltic,186=Swis721 Win95BT,186"
+win.ini,FontSubstitutes,,"Zurich Blk Win95BT Baltic,186=Zurich Blk Win95BT,186"
+win.ini,FontSubstitutes,,"Zurich Win95BT Baltic,186=Zurich Win95BT,186"
+
+[CentralEuropeFontSubsToAdd]
+win.ini,FontSubstitutes,,"AdLib Win95BT CE,238=AdLib Win95BT,238"
+win.ini,FontSubstitutes,,"Baskerville Win95BT CE,238=Baskerville Win95BT,238"
+win.ini,FontSubstitutes,,"CentSchbook Win95BT CE,238=CentSchbook Win95BT,238"
+win.ini,FontSubstitutes,,"Chianti Win95BT CE,238=Chianti Win95BT,238"
+win.ini,FontSubstitutes,,"Chianti It Win95BT CE,238=Chianti It Win95BT,238"
+win.ini,FontSubstitutes,,"Chianti BdIt Win95BT CE,238=Chianti BdIt Win95BT,238"
+win.ini,FontSubstitutes,,"Courier10 Win95BT CE,238=Courier10 Win95BT,238"
+win.ini,FontSubstitutes,,"Dutch801 Rm Win95BT CE,238=Dutch801 Rm Win95BT,238"
+win.ini,FontSubstitutes,,"FuturaBlack Win95BT CE,238=FuturaBlack Win95BT,238"
+win.ini,FontSubstitutes,,"Monospac821 Win95BT CE,238=Monospac821 Win95BT,238"
+win.ini,FontSubstitutes,,"OzHandicraft Win95BT CE,238=OzHandicraft Win95BT,238"
+win.ini,FontSubstitutes,,"PosterBodoni Win95BT CE,238=PosterBodoni Win95BT,238"
+win.ini,FontSubstitutes,,"Swis721 Win95BT CE,238=Swis721 Win95BT,238"
+win.ini,FontSubstitutes,,"Zurich Blk Win95BT CE,238=Zurich Blk Win95BT,238"
+win.ini,FontSubstitutes,,"Zurich Win95BT CE,238=Zurich Win95BT,238"
+
+[CyrillicFontSubsToAdd]
+win.ini,FontSubstitutes,,"AdLib Win95BT Cyr,204=AdLib Win95BT,204"
+win.ini,FontSubstitutes,,"Baskerville Win95BT Cyr,204=Baskerville Win95BT,204"
+win.ini,FontSubstitutes,,"CentSchbook Win95BT Cyr,204=CentSchbook Win95BT,204"
+win.ini,FontSubstitutes,,"Chianti Win95BT Cyr,204=Chianti Win95BT,204"
+win.ini,FontSubstitutes,,"Chianti It Win95BT Cyr,204=Chianti It Win95BT,204"
+win.ini,FontSubstitutes,,"Chianti BdIt Win95BT Cyr,204=Chianti BdIt Win95BT,204"
+win.ini,FontSubstitutes,,"Courier10 Win95BT Cyr,204=Courier10 Win95BT,204"
+win.ini,FontSubstitutes,,"Dutch801 Rm Win95BT Cyr,204=Dutch801 Rm Win95BT,204"
+win.ini,FontSubstitutes,,"FuturaBlack Win95BT Cyr,204=FuturaBlack Win95BT,204"
+win.ini,FontSubstitutes,,"Monospac821 Win95BT Cyr,204=Monospac821 Win95BT,204"
+win.ini,FontSubstitutes,,"OzHandicraft Win95BT Cyr,204=OzHandicraft Win95BT,204"
+win.ini,FontSubstitutes,,"PosterBodoni Win95BT Cyr,204=PosterBodoni Win95BT,204"
+win.ini,FontSubstitutes,,"Swis721 Win95BT Cyr,204=Swis721 Win95BT,204"
+win.ini,FontSubstitutes,,"Zurich Blk Win95BT Cyr,204=Zurich Blk Win95BT,204"
+win.ini,FontSubstitutes,,"Zurich Win95BT Cyr,204=Zurich Win95BT,204"
+
+[GreekFontSubsToAdd]
+win.ini,FontSubstitutes,,"AdLib Win95BT Greek,161=AdLib Win95BT,161"
+win.ini,FontSubstitutes,,"Baskerville Win95BT Greek,161=Baskerville Win95BT,161"
+win.ini,FontSubstitutes,,"CentSchbook Win95BT Greek,161=CentSchbook Win95BT,161"
+win.ini,FontSubstitutes,,"Chianti Win95BT Greek,161=Chianti Win95BT,161"
+win.ini,FontSubstitutes,,"Chianti It Win95BT Greek,161=Chianti It Win95BT,161"
+win.ini,FontSubstitutes,,"Chianti BdIt Win95BT Greek,161=Chianti BdIt Win95BT,161"
+win.ini,FontSubstitutes,,"Courier10 Win95BT Greek,161=Courier10 Win95BT,161"
+win.ini,FontSubstitutes,,"Dutch801 Rm Win95BT Greek,161=Dutch801 Rm Win95BT,161"
+win.ini,FontSubstitutes,,"FuturaBlack Win95BT Greek,161=FuturaBlack Win95BT,161"
+win.ini,FontSubstitutes,,"Monospac821 Win95BT Greek,161=Monospac821 Win95BT,161"
+win.ini,FontSubstitutes,,"OzHandicraft Win95BT Greek,161=OzHandicraft Win95BT,161"
+win.ini,FontSubstitutes,,"PosterBodoni Win95BT Greek,161=PosterBodoni Win95BT,161"
+win.ini,FontSubstitutes,,"Swis721 Win95BT Greek,161=Swis721 Win95BT,161"
+win.ini,FontSubstitutes,,"Zurich Blk Win95BT Greek,161=Zurich Blk Win95BT,161"
+win.ini,FontSubstitutes,,"Zurich Win95BT Greek,161=Zurich Win95BT,161"
+
+[TurkishFontSubsToAdd]
+win.ini,FontSubstitutes,,"AdLib Win95BT Tur,162=AdLib Win95BT,162"
+win.ini,FontSubstitutes,,"Baskerville Win95BT Tur,162=Baskerville Win95BT,162"
+win.ini,FontSubstitutes,,"CentSchbook Win95BT Tur,162=CentSchbook Win95BT,162"
+win.ini,FontSubstitutes,,"Chianti Win95BT Tur,162=Chianti Win95BT,162"
+win.ini,FontSubstitutes,,"Chianti It Win95BT Tur,162=Chianti It Win95BT,162"
+win.ini,FontSubstitutes,,"Chianti BdIt Win95BT Tur,162=Chianti BdIt Win95BT,162"
+win.ini,FontSubstitutes,,"Courier10 Win95BT Tur,162=Courier10 Win95BT,162"
+win.ini,FontSubstitutes,,"Dutch801 Rm Win95BT Tur,162=Dutch801 Rm Win95BT,162"
+win.ini,FontSubstitutes,,"FuturaBlack Win95BT Tur,162=FuturaBlack Win95BT,162"
+win.ini,FontSubstitutes,,"Monospac821 Win95BT Tur,162=Monospac821 Win95BT,162"
+win.ini,FontSubstitutes,,"OzHandicraft Win95BT Tur,162=OzHandicraft Win95BT,162"
+win.ini,FontSubstitutes,,"PosterBodoni Win95BT Tur,162=PosterBodoni Win95BT,162"
+win.ini,FontSubstitutes,,"Swis721 Win95BT Tur,162=Swis721 Win95BT,162"
+win.ini,FontSubstitutes,,"Zurich Blk Win95BT Tur,162=Zurich Blk Win95BT,162"
+win.ini,FontSubstitutes,,"Zurich Win95BT Tur,162=Zurich Win95BT,162"
+
+[TTFCache_delete]
+wininit.ini,Rename,,"NUL=%25%\ttfcache."
+
+[Corel_BT_AddFonts]
+TT0003C_.ttf
+TT0004C_.ttf
+TT0005C_.ttf
+TT0006C_.ttf
+TT0011C_.ttf
+TT0012C_.ttf
+TT0013C_.ttf
+TT0014C_.ttf
+TT0031C_.ttf
+TT0032C_.ttf
+TT0033C_.ttf
+TT0034C_.ttf
+TT0083C_.ttf
+TT0084C_.ttf
+TT0085C_.ttf
+TT0086C_.ttf
+TT0129C_.ttf
+TT0178C_.ttf
+TT0179C_.ttf
+TT0180C_.ttf
+TT0181C_.ttf
+TT0182C_.ttf
+TT0206C_.ttf
+TT0419C_.ttf
+TT0583C_.ttf
+TT0596C_.ttf
+TT0598C_.ttf
+TT1154C_.ttf
+TT1178C_.ttf
+TT1210C_.ttf
+TT1211C_.ttf
+TT1212C_.ttf
+TT1213C_.ttf
+
+[Strings]
+;Non-Localizable Strings
+KEY_OPTIONAL="SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\OptionalComponents"
+;Localizable Strings
+;descriptions
+MultilingualCodePages_DESC = "Multilingual Code Pages"
+BalticCodePage_DESC        = "Baltic Code Page 1257"
+CentralEuropeCodePage_DESC            = "Central European Code Page 1250"
+CyrillicCodePage_DESC           = "Cyrillic Code Page 1251"
+GreekCodePage_DESC         = "Greek Code Page 1253"
+TurkishCodePage_DESC       = "Turkish Code Page 1254"
+;tips
+Corel_BT_FontSet_TIP        =    " Bitstream WGL4 Unicode Fonts Character Set."
+Corel_BT_Fonts_TIP          =    " Bitstream WGL4 Unicode Fonts Character Set."
+MultilingualCodePages_TIP = " Multilingual Code Page - Baltic, Cyrillic, Central European, Greek, Turkish - Selection List."
+BalticCodePage_TIP    = " Adds Baltic Code Page 1257 Support. "
+CentralEuropeCodePage_TIP        = " Adds Central European Code Page 1250 Support. "
+CyrillicCodePage_TIP       = " Adds Cyrillic Code Page 1251 Support. "
+GreekCodePage_TIP   = " Adds Greek Code Page 1253 Support. "
+TurkishCodePage_TIP = " Adds Turkish Code Page 1254 Support. "
+

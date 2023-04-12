@@ -1,0 +1,44 @@
+:Base FontNav
+:Title Font Navigator 說明
+1 快速入門
+2 什麼是 Font Navigator？=What_Is_Font_Navigator
+2 首度執行 Font Navigator=FIRST
+2 Font Navigator 的主要功能=FEATURES
+2 快速入門： 如何使用 Font Navigator=QUICK
+2 圖示代表的意義=ICONS
+2 什麼是「字型目錄」=Font_Catalog
+2 Web 上的連結=Links_on_the_web
+1 如何...
+2 安裝及解除安裝字型
+3 安裝字型=INSTALL
+3 解除安裝字型=UNINSTALL
+3 檢視字型的屬性=PROPERTIES
+2 搜尋字型
+3 搜尋字型 概觀=SEARCH
+3 將字型加入「字型目錄」=Using_the_Find_Fonts_Option_Updating_the_Font_Catalog
+3 瀏覽資料夾中的字型=Using_the_Go_to_a_different_folder_List_Box
+2 處理字型群組
+3 建立字型群組=FONTGROUP
+3 安裝字型及字型群組=INSTALL
+3 使用字型群組=How_to_Make_the_Best_Use_of_Font_Groups
+3 解除安裝字型及字型群組=UNINSTALL
+3 檢視或改變字型群組的屬性=PROPERTIES
+3 取得免費、預製的字型群組！=Getting_free_pre_made_font_groups
+2 檢視及列印「字型樣本」
+3 檢視字型樣本=VIEWER
+3 列印字型樣本=How_to_Print_Font_Samples
+3 瀏覽字型樣本=EXPLORE
+2 檢視「內容」清單中的「字型」
+3 依格式檢視字型=How_to_View_Fonts_by_Format
+3 依樣式檢視字型=How_to_View_Fonts_by_Style
+3 自訂檢視=CUSTOM
+2 管理系統上的字型
+3 複製或移動字型及字型群組=How_to_copy_or_move_fonts
+3 從 Windows「字型」資料夾移動字型=How_to_move_fonts_from_Windows_Fonts
+3 移除字型或字型群組=REMOVE
+1 參考資料
+2 「檔案」功能表=FILE
+2 「編輯」功能表=EDIT
+2 「檢視」功能表=VIEW
+2 「說明」功能表=Help_Menu
+

@@ -1,0 +1,2 @@
+<AREA SHAPE="RECT" COORDS="8,8,106,60" HREF="http://www.corel.com/" ALT="Version 2 Corel">
+<AREA SHAPE="RECT" COORDS="170,121,281,139" HREF="http://www.designer.com/" ALT="Web Designer Community">

@@ -1,0 +1,18 @@
+:Base cversion.hlp>main
+:Title Corel Versions 說明
+1 使用 Corel Versions
+2 概觀：歡迎使用 Corel Versions=Overview Welcome to Corel Versions@cversion.hlp>main
+2 設定 Corel Versions
+3 概觀：設定 Corel Versions=Overview Setting up Corel Versions@cversion.hlp>main
+3 啟動 Corel Versions=Enabling Corel Versions@cversion.hlp>proc4
+3 啟動檔案壓縮=Enabling file compression@cversion.hlp>proc4
+3 設定最大暫存版本數=Setting the maximum number of temporary versions@cversion.hlp>proc4
+3 設定保存位置=Setting archive locations@cversion.hlp>proc4
+3 排除不保存的檔案類型=Excluding file types from being archived@cversion.hlp>proc4
+2 管理檔案
+3 概觀：管理檔案=Overview Managing files@cversion.hlp>main
+3 檢視檔案的屬性=Viewing a files properties@cversion.hlp>proc4
+3 保存檔案=Archiving files@cversion.hlp>proc4
+3 取回與複製檔案=Retrieving and copying files@cversion.hlp>proc4
+3 刪除檔案=Deleting files@cversion.hlp>proc4
+3 移動與更名檔案=Moving and renaming files@cversion.hlp>proc4

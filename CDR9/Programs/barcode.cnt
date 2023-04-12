@@ -1,0 +1,16 @@
+:Base barcode.hlp>main
+1 使用條碼精靈
+2 概觀：使用條碼精靈=Overview Using Barcode Wizard>main
+2 選取工業標準格式
+3 概觀：選取工業標準格式=Overview Selecting industrystandard formats>main
+3 選擇條碼=Choosing a bar code>proc4
+2 調整工業標準屬性
+3 概觀：調整工業標準屬性=Overview Adjusting industrystandard properties>main
+3 產生條碼=Generating bar codes>proc4
+2 設定進階條碼選項
+3 概觀：設定進階條碼選項=Overview Setting advanced bar code options>main
+3 啟動進階選項=Enabling advanced options>proc4
+2 調整文字屬性
+3 概觀：調整文字屬性=Overview Adjusting text properties>main
+3 變更文字選項=Changing text options>proc4
+3 變更條碼選項=Changing bar code options>proc4

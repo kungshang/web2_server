@@ -1,0 +1,884 @@
+:Base photopnt.hlp>main
+:Tab Corel KnowledgeBase=cdrhlp91.dll
+1 歡迎來到 Corel PHOTO-PAINT
+2 概觀：歡迎來到 Corel PHOTO-PAINT=Overview Welcome to Corel PHOTOPAINT>main
+2 關於 Corel Corporation
+3 概觀：關於 Corel Corporation=Overview About Corel Corporation>main
+2 使用說明
+3 概觀：使用說明=Overview Using Help>main
+3 存取線上說明=Accessing online Help>proc4
+3 存取關連式說明=Accessing contextsensitive Help>proc4
+3 存取彈出式說明=Accessing popup Help>proc4
+3 存取 CorelTUTOR=Accessing CorelTUTOR>proc4
+3 列印線上說明=Printing online Help>proc4
+2 瀏覽工作區域
+3 概觀：瀏覽工作區域=Overview Exploring the work area>main
+3 使用一般按鈕控制項=Using common button controls>proc4
+3 使用工具箱=Using the Toolbox>proc4
+3 存取彈出式功能表=Accessing flyouts>proc4
+3 使用屬性列=Using the Property Bar>proc4
+3 使用泊塢視窗=Using Docker windows>proc4
+3 使用工具列=Using toolbars>proc4
+3 使用多重工作空間=Using multiple workspaces>proc4
+2 Corel 服務與支援
+3 概觀：Corel 服務與支援=Overview Corel services and support>main
+3 撥電話尋求 Corel 技術支援前的準備
+4 概觀：撥電話尋求 Corel 技術支援前的準備=Overview Before calling Corel Technical Support>main
+3 電話技術支援選項
+4 概觀：電話技術支援選項=Overview Telephone technical support options>main
+3 Corel PHOTO-PAINT 其他支援選項
+4 概觀：Corel PHOTO-PAINT 其他支援選項=Overview Other Corel PHOTOPAINT support options>main
+4 CompuServe=CompuServe>proc4
+4 全球資訊網上的技術支援=Technical Support on the World Wide Web>proc4
+3 客戶服務
+4 概觀：客戶服務=Overview Customer Service>main
+1 開始前準備
+2 概觀：開始前準備=Overview Getting started>main
+2 建立影像
+3 概觀：建立影像=Overview Creating an image>main
+3 設定影像大小與解析度=Setting the image size and resolution>proc4
+3 設定影像色彩模式與背景色彩=Setting the image color mode and background color>proc4
+3 使用剪貼簿與現有影像建立影像=Creating an image using the Clipboard and existing images>proc4
+2 開啟、關閉與儲存影像
+3 概觀：開啟、關閉與儲存影像=Overview Opening closing and saving an image>main
+3 開啟影像=Opening an image>proc4
+3 開啟影像的低解析度版本=Opening a lowresolution version of an image>proc4
+3 將低解析度的編輯應用至原始影像=Applying lowresolution edits to the original image>proc4
+3 關閉影像=Closing an image>proc4
+3 儲存影像=Saving an image>proc4
+3 自動儲存影像=Saving an image automatically>proc4
+3 儲存影像的備份副本=Saving a backup copy of the image>proc4
+2 使用收集簿
+3 概觀：使用收集簿=Overview Using the Scrapbook>main
+3 使用收集簿瀏覽檔案=Browsing files using the Scrapbook>proc4
+3 使用收集簿開啟影像或相片=Opening an image or photo using the Scrapbook>proc4
+3 連接 FTP 網站=Connecting to FTP sites>proc4
+3 從 FTP 網站取得檔案=Obtaining files from FTP sites>proc4
+2 處理三度空間模型
+3 概觀：處理三度空間模型=Overview Working with a threedimensional model>main
+3 輸入 3D 模型=Importing a 3D model>proc4
+3 操作 3D 模型=Manipulating a 3D model>proc4
+3 使用相機=Using the camera>proc4
+3 新增光源=Adding lights>proc4
+3 定位光源=Positioning lights>proc4
+3 設定光源屬性=Setting light properties>proc4
+2 檢視影像與取得影像資訊
+3 概觀：檢視影像與取得影像資訊=Overview Viewing images and obtaining image information>main
+3 檢視影像的大型呈現方式=Viewing a large representation of an image>proc4
+3 為影像視窗中的影像加上外框=Framing an image in the Image Window>proc4
+3 自動改變影像視窗的大小=Resizing the Image Window automatically>proc4
+3 檢視落在影像視窗外的影像區域=Viewing image areas that fall outside the Image Window>proc4
+3 設定開啟影像的顯示比例=Setting the zoom level at which images are opened>proc4
+3 放大與縮小=Zooming in and out>proc4
+3 自訂透明度格點花紋=Customizing the transparency grid pattern>proc4
+3 啟動螢幕遞色=Enabling screen dithering>proc4
+3 使用文件資訊對話方塊=Using the Document Info dialog box>proc4
+3 使用影像資訊泊塢視窗=Using the Image Info Docker window>proc4
+2 自訂量測與記憶體選項
+3 概觀：自訂量測與記憶體選項=Overview Customizing measurement and memory options>main
+3 選擇量測單位=Choosing the unit of measure>proc4
+3 設定微調增量=Setting the nudge increments>proc4
+3 建立交換磁碟空間=Creating swap disk space>proc4
+2 啟動工作空間選項
+3 概觀：啟動工作空間選項=Overview Enabling workspace options>main
+3 啟動工具警告=Enabling the tool warnings>proc4
+3 啟動唯讀警告=Enabling the readonly warning>proc4
+3 啟動彈出式說明=Enabling the popup Help>proc4
+3 啟動物件提示與偏好選項=Enabling the Object Tips and preferences>proc4
+2 復原與重做變更
+3 概觀：復原與重做變更=Overview Undoing and redoing changes>main
+3 啟動復原功能=Enabling undo capabilities>proc4
+3 選擇復原階層個數=Choosing the number of undo levels>proc4
+3 復原與重做最後的變更=Undoing and redoing the last change>proc4
+3 復原一系列指令=Undoing a series of commands>proc4
+3 將復原清單另存為 Script=Saving an undo list as a script>proc4
+3 建立與回到檢查點=Creating and returning to a checkpoint>proc4
+3 重複及淡化操作=Repeating and fading operations>proc4
+2 使用導線、格點及尺規
+3 概觀：使用導線、格點及尺規=Overview Using the guidelines grid and rulers>main
+3 處理導線
+4 概觀：處理導線=Overview Working with guidelines>main
+4 設定導線=Setting up guidelines>proc4
+4 使用導線=Using guidelines>proc4
+4 變更導線的色彩=Changing the color of the guidelines>proc4
+4 自訂貼齊導線敏感度=Customizing the snap to guidelines sensitivity>proc4
+3 處理格點與尺規
+4 概觀：處理格點與尺規=Overview Working with the grid and rulers>main
+4 設定格點=Setting up the grid>proc4
+4 處理格點=Working with the grid>proc4
+4 變更格點的色彩及樣式=Changing the color and style of the grid>proc4
+4 在最大顯示比例時顯示格點=Showing the grid at maximum zoom>proc4
+4 設定尺規=Setting up the rulers>proc4
+4 使用尺規=Using the rulers>proc4
+4 校正尺規=Calibrating the rulers>proc4
+1 處理遮罩及選取區域
+2 概觀：處理遮罩及選取區域=Overview Working with masks and selections>main
+2 建立遮罩及選取區域
+3 概觀：建立遮罩及選取區域=Overview Creating masks and selections>main
+3 選取特定造形的影像區域
+4 概觀：選取特定造形的影像區域=Overview Selecting an image area with a specific shape>main
+4 選取矩形區域=Selecting a rectangular area>proc4
+4 選取圓形或橢圓形區域=Selecting a circular or elliptical area>proc4
+4 以畫出外框的方式選取不規則造形的區域=Selecting an irregularly shaped area by outlining it>proc4
+4 以自動感應邊緣的方式選取不規則造形的區域=Selecting an irregularly shaped area by autosensing its edges>proc4
+4 以繪圖方式選取不規則造形的區域=Selecting an irregularly shaped area by painting over it>proc4
+4 以物件造形選取區域=Selecting an area with the shape of an object>proc4
+4 選取文字造形的區域=Selecting a textshaped area>proc4
+4 以剪貼簿內容的造形選取區域=Selecting an area with the shape of the Clipboard contents>proc4
+4 以路徑造形選取區域=Selecting an area with the shape of a path>proc4
+4 選取整個影像=Selecting an entire image>proc4
+3 選取影像中的特定色彩
+4 概觀：選取影像中的特定色彩=Overview Selecting specific colors in an image>main
+4 選取特定影像區域內的色彩=Selecting colors in a particular image area>proc4
+4 選取影像中的相鄰色彩=Selecting adjacent colors in an image>proc4
+4 根據色頻資訊選取色彩=Selecting colors based on color channel information>proc4
+4 選取影像中任何位置的特定色彩=Selecting specific colors anywhere in an image>proc4
+2 遮罩基本概念
+3 概觀：遮罩基本概念=Overview Mask basics>main
+3 顯示與隱藏遮罩覆蓋 =Displaying and hiding the mask overlay>proc4
+3 變更遮罩覆蓋的色彩=Changing the color of the mask overlay>proc4
+3 隱藏與顯示遮罩圈選框=Hiding and displaying the mask marquee>proc4
+3 選取遮罩圈選框=Selecting the mask marquee>proc4
+3 變更遮罩覆蓋的色彩=Changing the color of the mask marquee>proc4
+3 反轉遮罩=Inverting a mask>proc4
+3 移除遮罩=Removing a mask>proc4
+2 移動與對齊遮罩圈選框和選取區域
+3 概觀：移動與對齊遮罩圈選框和選取區域=Overview Moving and aligning mask marquees and selections>main
+3 移動遮罩圈選框或選取區域=Moving a mask marquee or a selection>proc4
+3 以預設增量移動遮罩圈選框或選取區域=Moving a mask marquee or a selection in preset increments>proc4
+3 對齊遮罩圈選框=Aligning a mask marquee>proc4
+3 設定遮罩圈選框在選取區域邊緣的位置=Positioning a mask marquee on the selections edge>proc4
+2 擴大與縮小選取區域
+3 概觀：擴大與縮小選取區域=Overview Expanding and reducing selections>main
+3 新增區域到選取區域中=Adding areas to a selection>proc4
+3 自選取區域中移除區域=Removing areas from a selection>proc4
+3 使用邊框造形效果擴大或縮小選取區域=Expanding or reducing a selection using a bordershaped effect>proc4
+3 從選取區域中移除空洞=Removing holes from a selection>proc4
+3 將選取區域擴大或縮小特定個數的圖素=Expanding or reducing a selection by a specific number of pixels>proc4
+3 將色彩相似的相鄰圖素加入選取區域中=Adding adjacent pixels of similar color to a selection>proc4
+3 將所有色彩相似的圖素加入選取區域中=Adding all pixels of similar color to a selection>proc4
+3 調整色彩容錯度來擴大或縮小選取區域=Expanding or reducing a selection by adjusting the color tolerance>proc4
+3 調整色彩門檻來擴大或縮小選取區域=Expanding or reducing a selection by adjusting the color threshold>proc4
+3 使用填塗於遮罩模式擴大或縮小選取區域=Expanding or reducing a selection using the Paint On Mask mode>proc4
+2 將選取區域變形
+3 概觀：將選取區域變形=Overview Transforming selections>main
+3 旋轉選取區域=Rotating a selection>proc4
+3 變更選取區域大小=Resizing a selection>proc4
+3 縮放選取區域=Scaling a selection>proc4
+3 建立選取區域的鏡射影像=Creating a mirror image of a selection>proc4
+3 傾斜選取區域=Skewing a selection>proc4
+3 變形選取區域=Distorting a selection>proc4
+3 將透視應用到選取區域=Applying perspective to a selection>proc4
+2 調整遮罩與選取區域的透明度和邊緣
+3 概觀：調整遮罩與選取區域的透明度和邊緣=Overview Adjusting the transparency and edges of masks and selections>main
+3 調整遮罩或選取區域的透明度=Adjusting the transparency of a mask or selection>proc4
+3 應用反鋸齒補償=Applying antialiasing>proc4
+3 將選取區域的邊緣作羽化處理=Feathering the edges of a selection>proc4
+3 移除選取區域邊緣的羽化處理=Removing the feathering from the edges of a selection>proc4
+3 將選取區域的邊緣平滑化=Smoothing the edges of a selection>proc4
+3 沿著選取區域的邊緣應用色彩或效果=Applying color or an effect along the edges of a selection>proc4
+2 管理多個遮罩與選取區域
+3 概觀：管理多個遮罩與選取區域=Overview Managing multiple masks and selections>main
+3 建立 Alpha 色頻=Creating an alpha channel>proc4
+3 顯示或隱藏 Alpha 色頻=Displaying or hiding an alpha channel>proc4
+3 變更 Alpha 色頻的屬性=Changing the properties of an alpha channel>proc4
+3 以將 Alpha 色頻與目前色頻合併的方式來編輯它=Editing an alpha channel by combining it with the current channel>proc4
+3 重新排列 Alpha 色頻=Rearranging alpha channels>proc4
+3 將 Alpha 色頻儲存至磁碟=Saving an alpha channel to disk>proc4
+3 從磁碟中載入 Alpha 色頻=Loading an alpha channel from disk>proc4
+3 刪除 Alpha 色頻=Deleting an alpha channel>proc4
+3 將遮罩儲存至 Alpha 色頻=Saving a mask to an alpha channel>proc4
+3 將遮罩儲存至磁碟=Saving a mask to disk>proc4
+3 從 Alpha 色頻載入遮罩=Loading a mask from an alpha channel>proc4
+3 從磁碟載入遮罩=Loading a mask from disk>proc4
+3 儲存選取區域=Saving a selection>proc4
+1 影像填塗、填色及編輯
+2 概觀：影像填塗、填色及編輯=Overview Painting filling and editing images>main
+2 選擇筆刷及合併模式
+3 概觀：選擇筆刷及合併模式=Overview Choosing a paintbrush and merge mode>main
+3 建立自訂筆刷
+4 概觀：建立自訂筆刷=Overview Creating a custom brush>main
+4 建立筆尖=Creating a nib>proc4
+4 建立材質筆刷=Creating a textured brush>proc4
+4 變更筆刷的出血率=Changing the bleed rate of a brush>proc4
+4 變更塗刷屬性=Changing dab attributes>proc4
+4 調整筆觸屬性=Adjusting stroke attributes>proc4
+4 儲存、刪除及重設自訂筆刷=Saving deleting and resetting a custom brush>proc4
+3 選擇合併模式
+4 概觀：選擇合併模式=Overview Choosing a merge mode>main
+4 存取及選擇合併模式=Accessing and choosing a merge mode>proc4
+2 填塗影像
+3 概觀：填塗影像=Overview Painting an image>main
+3 選擇顏料色彩=Choosing a paint color>proc4
+3 應用筆刷筆觸=Applying a brush stroke>proc4
+3 重複及變更筆刷筆觸=Repeating and changing a brush stroke>proc4
+3 繪製造形及線條=Drawing shapes and lines>proc4
+3 仿製影像、物件及填色=Cloning images objects and fills>proc4
+3 噴灑填塗影像=Spray painting images>proc4
+3 建立及編輯影像清單=Creating and editing an image list>proc4
+3 以軌道填塗=Painting with orbits>proc4
+3 對稱填塗=Painting with symmetry>proc4
+2 使用壓力感應筆
+3 概觀：使用壓力感應筆=Overview Using a pressuresensitive pen>main
+3 設定繪圖版=Configuring the Pen Tablet>proc4
+3 設定壓力感應筆的屬性=Setting the attributes of the pressuresensitive pen>proc4
+2 以色彩填入影像
+3 概觀：以色彩填入影像=Overview Filling an image with color>main
+3 處理標準填色
+4 概觀：處理標準填色=Overview Working with a uniform fill>main
+4 應用標準填色=Applying a uniform fill>proc4
+4 載入標準填色的色彩模型及色盤=Loading the color model and color palette for a uniform fill>proc4
+3 處理漸層填色
+4 概觀：處理漸層填色=Overview Working with a fountain fill>main
+4 應用漸層填色=Applying a fountain fill>proc4
+4 應用雙色漸層填色=Applying a twocolor fountain fill>proc4
+4 建立自訂漸層填色=Creating a custom fountain fill>proc4
+4 自訂漸層填色=Customizing a fountain fill>proc4
+4 儲存及刪除自訂漸層填色=Saving and deleting a custom fountain fill>proc4
+3 處理點陣圖填色
+4 概觀：處理點陣圖填色=Overview Working with a bitmap fill>main
+4 應用點陣圖填色=Applying a bitmap fill>proc4
+4 輸入點陣圖填色=Importing a bitmap fill>proc4
+4 自選取區域建立點陣圖填色=Creating a bitmap fill from a selection>proc4
+4 變更點陣圖填色的大小=Changing the size of a bitmap fill>proc4
+4 設定點陣圖填色的偏移=Setting the offset of a bitmap fill>proc4
+4 旋轉及傾斜點陣圖填色=Rotating and skewing a bitmap fill>proc4
+4 刪除點陣圖填色=Deleting a bitmap fill>proc4
+3 處理材質填色
+4 概觀：處理材質填色=Overview Working with a texture fill>main
+4 應用材質填色=Applying a texture fill>proc4
+4 建立自訂材質填色=Creating a custom texture fill>proc4
+4 儲存及刪除自訂材質填色=Saving and deleting a custom texture fill>proc4
+3 處理漸進式填色
+4 概觀：處理漸進式填色=Overview Working with a gradient fill>main
+4 應用漸進式填色=Applying a gradient fill>proc4
+4 新增色彩至漸進式填色=Adding colors to a gradient fill>proc4
+2 編輯影像
+3 概觀：編輯影像=Overview Editing an image>main
+3 塗抹、弄髒及調和顏料=Smearing smudging and blending paint>proc4
+3 柔和及閃耀影像=Dodging and burning an image>proc4
+3 彩化或去除顏料的彩度=Saturating or desaturating paint>proc4
+3 調整影像色相=Adjusting the image hue>proc4
+3 將顏料色彩的色澤應用至影像上=Applying a paintcolored tint to an image>proc4
+3 使用反遞色工具移除灰塵及刮痕=Removing dust and scratches using the Undither tool>proc4
+3 使用復原工具=Using the Undo tools>proc4
+1 處理物件與文字
+2 概觀：處理物件與文字=Overview Working with objects and text>main
+2 處理物件與文字
+3 概觀：處理物件與文字=Overview Creating an object>main
+3 使用筆刷與造形工具建立物件=Creating an object using the brush and shape tools>proc4
+3 使用影像背景建立背景=Creating an object using the image background>proc4
+3 使用選取區域建立物件=Creating an object using selections>proc4
+2 選取物件
+3 概觀：選取物件=Overview Selecting an object>main
+3 選取物件=Selecting an object>proc4
+3 選取多個物件=Selecting multiple objects>proc4
+3 選取影像中所有物件=Selecting all objects in an image>proc4
+3 選取物件群組=Selecting groups of objects>proc4
+3 取消選取物件=Deselecting objects>proc4
+2 複製、剪下與貼上物件
+3 概觀：複製、剪下與貼上物件=Overview Copying cutting and pasting an object>main
+3 再製影像中的物件=Duplicating an object in an image>proc4
+3 將物件複製到其他影像=Copying an object to other images>proc4
+3 將影像檔當成新的物件貼上=Pasting an image file as a new object>proc4
+3 剪下與貼上物件=Cutting and pasting an object>proc4
+3 將物件貼入選取區域=Pasting an object into a selection>proc4
+2 移動與刪除物件
+3 概觀：移動與刪除物件=Overview Moving and deleting an object>main
+3 移動物件=Moving an object>proc4
+3 以預設的增量移動物件=Moving an object in preset increments>proc4
+3 刪除物件=Deleting an object>proc4
+2 顯示與排列物件
+3 概觀：顯示與排列物件=Overview Displaying and arranging an object>main
+3 顯示及隱藏物件=Displaying and hiding an object>proc4
+3 對齊物件=Aligning an object>proc4
+3 分佈物件=Distributing objects>proc4
+3 改變物件的順序=Changing the order of objects>proc4
+2 群組及組合物件
+3 概觀：群組及組合物件=Overview Grouping and combining objects>main
+3 群組物件=Grouping objects>proc4
+3 解散群組物件=Ungrouping objects>proc4
+3 將物件與影像背景組合=Combining objects with the image background>proc4
+3 將多個物件組合成一個物件=Combining multiple objects into one object>proc4
+3 建立與復原剪輯群組=Creating and undoing a clipping group>proc4
+2 將物件變形
+3 概觀：將物件變形=Overview Transforming an object>main
+3 改變大小與縮放物件=Sizing and scaling an object>proc4
+3 旋轉物件=Rotating an object>proc4
+3 翻轉物件=Flipping an object>proc4
+3 傾斜物件=Skewing an object>proc4
+3 變形物件=Distorting an object>proc4
+3 將透視點應用至物件=Applying perspective to an object>proc4
+2 變更物件的邊緣
+3 概觀：變更物件的邊緣=Overview Changing the edges of an object>main
+3 變更物件圈選框的門檻=Changing the threshold of the object marquee>proc4
+3 變更物件圈選框的色彩=Changing the color of the object marquee>proc4
+3 羽化物件的邊緣=Feathering the edges of an object>proc4
+3 將物件的邊緣銳利化=Sharpening the edges of an object>proc4
+3 去除物件折射紋路=Defringing an object>proc4
+3 移除物件的黑色或白色邊緣=Removing black or white edges from an object>proc4
+3 建立物件的陰影=Creating a shadow of an object>proc4
+2 處理物件透明度與剪輯遮罩
+3 概觀：處理物件透明度與剪輯遮罩=Overview Working with object transparency and clip masks>main
+3 變更物件的透明度=Changing the transparency of an object>proc4
+3 將透明度漸層應用至物件=Applying a transparency gradient to an object>proc4
+3 使物件中的選取色彩變成透明的=Making selected colors in an object transparent>proc4
+3 調和物件=Blending an object>proc4
+3 建立剪輯遮罩=Creating a clip mask>proc4
+3 變更包含剪輯遮罩的物件透明度=Changing the transparency of an object with a clip mask>proc4
+3 關閉物件透明度變更=Disabling object transparency changes>proc4
+2 建立與變更文字物件
+3 概觀：建立與變更文字物件=Overview Creating and changing a text object>main
+3 建立文字物件=Creating a text object>proc4
+3 移動文字物件=Moving a text object>proc4
+3 變更文字物件的色彩=Changing the color of a text object>proc4
+3 概觀：顏料填塗與填色文字物件=Overview Painting and filling a text object>main
+3 新增自訂線條至文字物件=Adding lines to text objects>proc4
+3 建立上標或下標文字物件=Creating superscript or subscript text objects>proc4
+3 定位文字物件=Spacing text objects>proc4
+1 編輯及精修影像
+2 概觀：編輯及精修影像=Overview Retouching and refining images>main
+2 變更影像尺寸及解析度
+3 概觀：變更影像尺寸及解析度=Overview Changing image dimensions and resolution>main
+3 裁切影像=Cropping an image>proc4
+3 裁切邊緣色彩=Cropping the border color>proc4
+3 沿著選取區域裁切=Cropping around a selection>proc4
+3 變更影像的尺寸=Changing the dimensions of an image>proc4
+3 變更紙張大小=Changing the paper size>proc4
+3 變更影像的解析度=Changing the resolution of an image>proc4
+2 變更影像方向
+3 概觀：變更影像方向=Overview Changing image orientation>main
+3 翻轉影像=Flipping an image>proc4
+3 旋轉影像=Rotating an image>proc4
+3 調正影像=Straightening an image>proc4
+3 訂合影像=Stitching images>proc4
+2 使用濾鏡
+3 概觀：使用濾鏡=Overview Working with lenses>main
+3 建立濾鏡=Creating a lens>proc4
+3 選取濾鏡=Selecting a lens>proc4
+3 變更濾鏡屬性=Changing the properties of a lens>proc4
+3 移動濾鏡=Moving a lens>proc4
+3 變更濾鏡區域=Changing the area of a lens>proc4
+3 變更濾鏡的造形與透明度=Changing the shape and transparency of a lens>proc4
+3 組合濾鏡與影像背景=Combining a lens with an image background>proc4
+2 使用調整過濾器
+3 概觀：使用調整過濾器=Overview Using adjustment filters page 1 of 2>main
+3 使用色階等化過濾器=Working with the Level Equalization filter>proc4
+3 使用局部等化過濾器=Working with the Local Equalization filter>proc4
+3 使用樣本/目標平衡過濾器=Working with the SampleTarget Balance filter>proc4
+3 使用色調曲線過濾器=Working with the Tone Curve filter>proc4
+3 使用自動等化過濾器=Working with the Auto Equalize filter>proc4
+3 使用亮度 - 對比 - 強度過濾器=Working with the BrightnessContrastIntensity filter>proc4
+3 使用色彩平衡過濾器=Working with the Color Balance filter>proc4
+3 使用伽瑪值過濾器=Working with the Gamma filter>proc4
+3 使用色相/彩度/明度過濾器=Working with the HueSaturationLightness filter>proc4
+3 使用選取色彩過濾器=Working with the Selective Color filter>proc4
+3 使用取代色彩過濾器=Working with the Replace Colors filter>proc4
+3 使用去除彩度過濾器=Working with the Desaturate filter>proc4
+3 使用色彩色相過濾器=Working with the Color Hue filter>proc4
+3 使用色彩色調過濾器=Working with the Color Tone filter>proc4
+2 使用變形過濾器
+3 概觀：使用變形過濾器=Overview Using transform filters>main
+3 使用去除交錯線過濾器=Working with the Deinterlace filter>proc4
+3 使用反轉過濾器=Working with the Invert filter>proc4
+3 使用極色化過濾器=Working with the Posterize filter>proc4
+3 使用門檻過濾器=Working with the Threshold filter>proc4
+2 使用分佈圖
+3 概觀：使用分佈圖=Overview Using the histogram>main
+3 使用分佈圖=Working with the histogram>proc4
+1 利用路徑定義影像範圍
+2 概觀：利用路徑定義影像範圍=Overview Using paths to define image areas>main
+2 路徑基本
+3 概觀：路徑基本=Overview Path basics>main
+3 繪製路徑線段=Drawing path segments>proc4
+3 自遮罩建立路徑=Creating a path from a mask>proc4
+3 儲存路徑=Saving a path>proc4
+3 開啟路徑=Opening a path>proc4
+3 刪除路徑=Deleting a path>proc4
+3 輸出路徑=Exporting a path>proc4
+2 使用剪輯路徑
+3 概觀：使用剪輯路徑=Overview Working with a clipping path>main
+3 使用剪輯路徑=Working with a clipping path>proc4
+2 選取及變形路徑
+3 概觀：選取及變形路徑=Overview Selecting and transforming a path>main
+3 選取及取消選取節點=Selecting and deselecting nodes>proc4
+3 移動節點線段=Moving a path segment>proc4
+3 改變路徑中曲線線段的造形=Shaping a curve segment in a path>proc4
+3 擴大與縮小路徑線段=Expanding and shrinking a path segment>proc4
+3 延展與縮放路徑線段=Stretching and scaling a path segment>proc4
+3 旋轉與傾斜路徑線段=Rotating and skewing a path segment>proc4
+2 編輯路徑
+3 概觀：編輯路徑=Overview Editing a path>main
+3 新增節點至路徑=Adding nodes to a path>proc4
+3 自路徑刪除節點=Deleting nodes from a path>proc4
+3 再製路徑=Duplicating a path>proc4
+3 移除路徑線段上不必要的節點=Removing unnecessary nodes on a path segment>proc4
+3 接合節點=Joining nodes>proc4
+3 中斷路徑=Breaking a path>proc4
+3 變更節點類型=Changing the node type>proc4
+3 將線段變更為曲線或直線=Changing a segment to a curve or line>proc4
+3 變更路徑的色彩=Changing the paths color>proc4
+2 以筆刷或遮罩工具使用路徑
+3 概觀：以筆刷或遮罩工具使用路徑=Overview Using paths with brush and mask tools>main
+3 自路徑建立遮罩=Creating a mask from a path>proc4
+3 沿路徑填塗=Painting along a path>proc4
+3 沿路徑重複填塗筆觸=Repeating a paint stroke along a path>proc4
+1 處理色彩
+2 概觀：處理色彩=Overview Working with color>main
+2 選擇色彩
+3 概觀：選擇色彩=Overview Choosing colors>main
+3 從色彩泊塢視窗選擇色彩=Choosing a color from the Color Docker window>proc4
+3 從色彩檢視器選擇色彩=Choosing a color from the color viewer>proc4
+3 以調和其他色彩來選擇色彩=Choosing a color by blending other colors>proc4
+3 使用色彩協調選擇色彩=Choosing a color using color harmonies>proc4
+3 從固定色盤選擇色彩=Choosing a color from a fixed color palette>proc4
+3 從自訂色盤選擇色彩=Choosing a color from a custom color palette>proc4
+3 以設定數值來選擇色彩=Choosing a color by setting numeric values>proc4
+3 預覽新色彩=Previewing new colors>proc4
+2 處理多個螢幕色盤
+3 概觀：處理多個螢幕色盤=Overview Working with Multiple OnScreen Color Palettes>main
+3 存取螢幕色盤=Accessing OnScreen Color Palettes>proc4
+3 變更預設的螢幕色盤=Changing the Default OnScreen Color Palette>proc4
+3 改變螢幕色盤的位置及大小=Changing the position and size of an OnScreen Color Palette>proc4
+2 自訂色盤
+3 概觀：自訂色盤=Overview Customizing Color Palettes>main
+3 建立自訂色盤=Creating custom palettes>proc4
+3 編輯現有自訂色盤=Editing an existing Custom Palette>proc4
+3 儲存自訂色盤=Saving a custom palette>proc4
+3 在自訂色盤上新增或刪除多種色彩=Adding or deleting multiple colors in a Custom Palette>proc4
+3 為自訂色盤中的色彩命名=Naming colors in a custom palette>proc4
+2 正確重製色彩
+3 概觀：正確重製色彩=Overview Reproducing colors accurately>main
+3 校正色彩=Correcting color>proc4
+3 檢視超出色域的色彩=Viewing outofgamut colors>proc4
+3 設定色彩描述檔=Setting color profiles>proc4
+3 選擇一般色彩設定=Choosing General Color Settings>proc4
+1 轉換影像
+2 概觀：轉換影像=Overview Converting images>main
+2 變更影像的色彩模式
+3 概觀：變更影像的色彩模式=Overview Changing the color mode of an image page 1 of 2>main
+3 將影像轉換成黑白色彩模式=Converting an image to the BlackandWhite color mode>proc4
+3 將影像轉換成灰階色彩模式=Converting an image to the Grayscale color mode>proc4
+3 將影像轉換成 RGB 色彩模式=Converting an image to the RGB color mode>proc4
+3 將影像轉換成 CMYK 色彩模式=Converting an image to the CMYK color mode>proc4
+3 將影像轉換成 Lab 色彩模式=Converting an image to the Lab color mode>proc4
+3 將影像轉換成多色頻色彩模式=Converting an image to the Multichannel color mode>proc4
+2 將影像轉換成色盤式色彩模式
+3 概觀：將影像轉換成色盤式色彩模式=Overview Converting an image to the Paletted color mode>main
+3 將影像轉換成色盤式色彩模式=Converting an image to the Paletted color mode>proc4
+3 選擇色盤式影像的範圍敏感度色彩=Choosing a range sensitivity color for a paletted image>proc4
+3 儲存、刪除及載入色盤式影像的轉換選項=Saving deleting and loading conversion options for the paletted image>proc4
+3 編輯印刷的色盤=Editing the processed Color Palette>proc4
+3 儲存印刷的色盤=Saving the processed Color Palette>proc4
+3 轉換多重檔案=Converting multiple files>proc4
+2 將影像轉換成雙色調色彩模式
+3 概觀：將影像轉換成雙色調色彩模式=Overview Converting an image to the Duotone color mode>main
+3 將影像轉換成雙色調色彩模式=Converting an image to the Duotone color mode>proc4
+3 載入及儲存雙色調轉換的墨水=Loading and saving inks for a duotone conversion>proc4
+3指定套印色彩在螢幕上的顯示方式=Specifying how overprint colors display on screen>proc4
+2 將影像轉換成視訊
+3 概觀：將影像轉換成視訊=Overview Converting an image to video>main
+3 將影像轉換成 NTSC 視訊模式=Converting an image to the NTSC video mode>proc4
+2 處理色頻
+3 概觀：處理色頻=Overview Working with color channels page 1 of 2>main
+3 以其相對的色彩顯示色頻=Displaying color channels using their respective colors>proc4
+3 在色頻泊塢視窗中編輯個別色頻=Editing an individual color channel in the Channels Docker window>proc4
+3 分離影像的色頻=Splitting the color channels of an image>proc4
+3結合分離的色頻=Combining split channels>proc4
+3 使用計算指令=Using the Calculations command>proc4
+1 應用特殊效果至影像
+2 概觀：應用特殊效果至影像=Overview Applying special effects to images>main
+2 使用三度空間過濾器
+3 概觀：使用三度空間過濾器=Overview Using threedimensional filters>main
+3 使用3D 旋轉過濾器=Working with the 3D Rotate filter>proc4
+3 使用圓柱體過濾器=Working with the Cylinder filter>proc4
+3 使用浮雕過濾器=Working with the Emboss filter>proc4
+3 使用玻璃過濾器=Working with the Glass filter>proc4
+3 使用捲頁過濾器=Working with the Page Curl filter>proc4
+3 使用透視點過濾器=Working with the Perspective filter>proc4
+3 使用捏起與擠壓過濾器=Working with the PinchPunch filter>proc4
+3 使用球體過濾器=Working with the Sphere filter>proc4
+3 使用凸起過濾器=Working with The Boss filter>proc4
+3 使用鋸齒過濾器=Working with the Zig Zag filter>proc4
+2 使用藝術筆觸過濾器
+3 概觀：使用藝術筆觸過濾器=Overview Using art strokes filters>main
+3 使用炭筆過濾器=Working with the Charcoal filter>proc4
+3 使用孔特蠟筆過濾器=Working with the Conte Crayon filter>proc4
+3 使用蠟筆過濾器=Working with the Crayon filter>proc4
+3 使用立體主義過濾器=Working with the Cubist filter>proc4
+3 使用濺水過濾器=Working with the Dabble filter>proc4
+3 使用印象主義過濾器=Working with the Impressionist filter>proc4
+3 使用色盤刀過濾器=Working with the Palette Knife filter>proc4
+3 使用粉蠟筆過濾器=Working with the Pastels filter>proc4
+3 使用外框筆與墨水過濾器=Working with the Pen And Ink filter>proc4
+3 使用點描畫法過濾器=Working with the Pointillist filter>proc4
+3 使用刮板過濾器=Working with the Scraperboard filter>proc4
+3 使用素描盤過濾器=Working with the Sketch Pad filter>proc4
+3 使用水彩過濾器=Working with the Watercolor filter>proc4
+3 使用水性麥克筆過濾器=Working with the Water Marker filter>proc4
+3 使用波浪紙過濾器=Working with the Wave Paper filter>proc4
+2 使用殘影過濾器
+3 概觀：使用殘影過濾器=Overview Using blur filters>main
+3 使用調校殘影過濾器=Working with the Tune Blur filter>proc4
+3 使用方向性平滑過濾器=Working with the Directional Smooth filter>proc4
+3 使用高斯殘影過濾器=Working with the Gaussian Blur filter>proc4
+3 使用鋸齒去斑紋過濾器=Working with the Jaggy Despeckle filter>proc4
+3 使用低反差過濾器=Working with the Low Pass filter>proc4
+3 使用動態殘影過濾器=Working with the Motion Blur filter>proc4
+3 使用放射式殘影過濾器=Working with the Radial Blur filter>proc4
+3 使用平滑化過濾器=Working with the Smooth filter>proc4
+3 使用柔化過濾器=Working with the Soften filter>proc4
+3 使用顯示比例過濾器=Working with the Zoom filter>proc4
+2 使用色彩轉換過濾器
+3 概觀：使用色彩轉換過濾器=Overview Using color transform filters>main
+3 使用位元平面過濾器=Working with the Bit Planes filter>proc4
+3 使用半色調過濾器=Working with the Halftone filter>proc4
+3 使用夢幻色調過濾器=Working with the Psychedelic filter>proc4
+3 使用過度曝光過濾器=Working with the Solarize filter>proc4
+2 使用輪廓圖過濾器
+3 概觀：使用輪廓圖過濾器=Overview Using contour filters>main
+3 使用邊緣偵測過濾器=Working with the Edge Detect filter>proc4
+3 使用尋找邊緣過濾器=Working with the Find Edges filter>proc4
+3 使用輪廓循跡過濾器=Working with the Trace Contour filter>proc4
+2 使用創造性過濾器
+3 概觀：使用創造性過濾器=Overview Using creative filters>main
+3 使用工藝過濾器=Working with the Crafts filter>proc4
+3 使用水晶化過濾器=Working with the Crystalize filter>proc4
+3 使用編織過濾器=Working with the Fabric filter>proc4
+3 使用框架過濾器=Working with the Frame filter>proc4
+3 使用玻璃磚過濾器=Working with the Glass Block filter>proc4
+3 使用童玩過濾器=Working with the Kids Play filter>proc4
+3 使用馬賽克過濾器=Working with the Mosaic filter>proc4
+3 使用微粒過濾器=Working with the Particles filter>proc4
+3 使用分散過濾器=Working with the Scatter filter>proc4
+3 使用霧玻璃過濾器=Working with the Smoked Glass filter>proc4
+3 使用彩色玻璃過濾器=Working with the Stained Glass filter>proc4
+3 使用肖像畫過濾器=Working with the Vignette filter>proc4
+3 使用旋動過濾器=Working with the Vortex filter>proc4
+3 使用氣候過濾器=Working with the Weather filter>proc4
+2 使用自訂過濾器
+3 概觀：使用自訂過濾器=Overview Using custom filters>main
+3 使用魔法過濾器=Working with the Alchemy filter>proc4
+3 設定魔法筆刷屬性=Setting the Alchemy brush properties>proc4
+3 開啟與儲存魔法筆刷=Opening and saving Alchemy brushes>proc4
+3 使用帶狀反差過濾器=Working with the Band Pass filter>proc4
+3 使用凹凸貼圖過濾器=Working with the Bump Map filter>proc4
+3 使用使用者定義過濾器=Working with the User Defined filter>proc4
+2 使用變形過濾器
+3 概觀：使用變形過濾器=Overview Using distort filters>main
+3 使用區塊過濾器=Working with the Blocks filter>proc4
+3 使用取代過濾器=Working with the Displace filter>proc4
+3 使用網狀排列過濾器=Working with the Mesh Warp filter>proc4
+3 使用偏移過濾器=Working with the Offset filter>proc4
+3 使用圖素化過濾器=Working with the Pixelate filter>proc4
+3 使用波浪過濾器=Working with the Ripple filter>proc4
+3 使用分歧過濾器=Working with the Shear filter>proc4
+3 使用漩渦過濾器=Working with the Swirl filter>proc4
+3 使用拼接過濾器=Working with the Tile filter>proc4
+3 使用濕筆畫過濾器=Working with the Wet Paint filter>proc4
+3 使用渦流過濾器=Working with the Whirlpool filter>proc4
+3 使用風過濾器=Working with the Wind filter>proc4
+2 使用雜點過濾器
+3 概觀：使用雜點過濾器=Overview Using noise filters>main
+3 使用調校雜點過濾器=Working with the Tune Noise filter>proc4
+3 使用新增雜點過濾器=Working with the Add Noise filter>proc4
+3 使用擴散過濾器=Working with the Diffuse filter>proc4
+3 使用灰塵與刮痕過濾器=Working with the Dust and Scratch filter>proc4
+3 使用最大值過濾器=Working with the Maximum filter>proc4
+3 使用中間值過濾器=Working with the Median filter>proc4
+3 使用最小值過濾器=Working with the Minimum filter>proc4
+3 使用移除撞網花紋過濾器=Working with the Remove Moir filter>proc4
+3 使用移除雜點過濾器=Working with the Remove Noise filter>proc4
+2 使用建構過濾器
+3 概觀：使用建構過濾器=Overview Using render filters>main
+3 使用3D 立體雜點過濾器=Working with the 3D Stereo Noise filter>proc4
+3 使用聚焦鏡過濾器=Working with the Lens Flare filter>proc4
+3 使用光源效果過濾器=Working with the Lighting Effects filter>proc4
+2 使用銳利化過濾器
+3 概觀：使用銳利化過濾器=Overview Using sharpen filters>main
+3 使用調校銳利化過濾器=Working with the Tune Sharpen filter>proc4
+3 使用最適反銳利化過濾器=Working with the Adaptive Unsharp filter>proc4
+3 使用方向性銳利化過濾器=Working with the Directional Sharpen filter>proc4
+3 使用高反差過濾器=Working with the High Pass filter>proc4
+3 使用銳利化過濾器=Working with the Sharpen filter>proc4
+3 使用反銳利遮罩過濾器=Working with the Unsharp Mask filter>proc4
+2 使用材質過濾器
+3 概觀：使用材質過濾器=Overview Using texture filters>main
+3 使用磚牆過濾器=Working with the Brick Wall filter>proc4
+3 使用氣泡過濾器=Working with the Bubbles filter>proc4
+3 使用油畫過濾器=Working with the Canvas filter>proc4
+3 使用鵝卵石過濾器=Working with the Cobblestone filter>proc4
+3 使用大象皮過濾器=Working with the Elephant Skin filter>proc4
+3 使用蝕刻過濾器=Working with the Etching filter>proc4
+3 使用塑膠過濾器=Working with the Plastic filter>proc4
+3 使用泥灰牆過濾器=Working with the Plaster Wall filter>proc4
+3 使用浮雕過濾器=Working with the Relief Sculpture filter>proc4
+3 使用簾幕過濾器=Working with the Screen Door filter>proc4
+3 使用石塊過濾器=Working with the Stone filter>proc4
+3 使用帆布覆蓋過濾器=Working with the Underpainting filter>proc4
+2使用 Fancy 過濾器
+3 概觀：使用 Fancy 過濾器=Overview Using fancy filters>main
+3 存取 Julia Set Explorer 2.0 過濾器=Accessing the Julia Set Explorer 20 filter>proc4
+3 使用 Terrazzo 過濾器=Working with the Terrazzo filter>proc4
+2 管理外掛式過濾器
+3 概觀：管理外掛式過濾器=Overview Managing plugin filters>main
+3 新增及移除外掛式過濾器=Adding and removing plugin filters>proc4
+3 開啟 Corel PHOTO-PAINT 時初始化協力廠商的效果=Initializing thirdparty effects when opening Corel PHOTOPAINT>proc4
+1 製造及編輯動畫
+2 概觀：製造及編輯動畫=Overview Making and editing movies>main
+2 建立動畫
+3 概觀：建立動畫=Overview Creating a movie>main
+3 建立動畫背景=Creating a movie background>proc4
+3 建立動畫組件=Creating the moving parts>proc4
+2 開啟與儲存動畫
+3 概觀：開啟與儲存動畫=Overview Opening and saving a movie>main
+3 開啟動畫=Opening a movie>proc4
+3 儲存動畫=Saving a movie>proc4
+3 另存動畫為動畫 GIF 檔=Saving a movie as an animated GIF file>proc4
+2 編輯與播放動畫
+3 概觀：編輯與播放動畫=Overview Editing and playing a movie>main
+3 將動畫格與檔案插入動畫中=Inserting frames and files into a movie>proc4
+3 從動畫中刪除動畫格=Deleting frames from a movie>proc4
+3 改變動畫格的順序=Changing the order of movie frames>proc4
+3 改變動畫格速率=Changing the Frame Rate>proc4
+3 控制動畫的播放=Controlling the movie playback>proc4
+2 處理  QuickTime VR 動畫
+3 概觀：處理  QuickTime VR 動畫=Overview Working with a QuickTime VR movie>main
+3 開啟 QuickTime VR 動畫=Opening a QuickTime VR movie>proc4
+3 將動畫儲存與自訂成 QuickTime VR 檔案=Saving and customizing a movie as a QuickTime VR file>proc4
+3 建立 QuickTime VR 熱點=Creating QuickTime VR hot spots>proc4
+1 發行影像至 Internet
+2 概觀：發行影像至 Internet=Overview Publishing images to the Internet>main
+2 選擇檔案格式
+3 概觀：選擇檔案格式=Overview Choosing a file format>main
+3 將影像儲存成 GIF 檔案格式=Saving an image to the GIF file format>proc4
+3 將影像儲存成 JPEG 檔案格式=Saving an image to the JPEG file format>proc4
+3 將影像儲存成 PNG 檔案格式=Saving an image to the PNG file format>proc4
+2 建立影像地圖
+3 概觀：建立影像地圖=Overview Creating image maps>main
+3 建立影像地圖=Creating an image map>proc4
+1 將應用程式工作自動化
+2 概觀：將應用程式工作自動化=Overview Automating application tasks>main
+2 建立及儲存錄製與 Script
+3 概觀：建立及儲存錄製與 Script=Overview Creating and saving recordings and scripts>main
+3 建立錄製=Creating a recording>proc4
+3 將錄製儲存成 Script=Saving a recording as a script>proc4
+2 執行錄製及 Script
+3 概觀：執行錄製及 Scripts=Overview Playing recordings and scripts>main
+3 執行錄製=Playing a recording>proc4
+3 執行 Script=Playing a script>proc4
+3 執行單一指令=Playing a single command>proc4
+3 執行前關閉指令=Disabling commands before playback>proc4
+3 在一張或多張影像上執行 Script=Playing scripts on one or more images>proc4
+2 編輯錄製及 Script
+3 概觀：編輯錄製及 Script=Overview Editing recordings and scripts>main
+3 將指令插入錄製或 Script 中=Inserting commands into a recording or script>proc4
+3 取代錄製或 Script 中的指令=Replacing commands in a recording or script>proc4
+3 從錄製或 Script 中刪除指令=Deleting commands from a recording or script>proc4
+2 管理 Script
+3 概觀：管理 Script=Overview Managing your scripts>main
+3 改變 Script 泊塢視窗的顯示屬性=Changing display properties in the Scripts Docker window>proc4
+3 指定快速鍵給 Script=Assigning a shortcut key to a script>proc4
+3 將 Script 放置於功能表中=Placing a script in a menu>proc4
+3 指定工具列按鈕給 Script=Assigning a toolbar button to a script>proc4
+2 使用 Corel SCRIPT 編輯器
+3 概觀：使用 Corel SCRIPT 編輯器=Overview Using the Corel SCRIPT Editor>main
+3 概觀：關於 Corel SCRIPT 程式設計語言=Overview About the Corel SCRIPT programming language>main
+3 概觀：Corel SCRIPT 應用程式指令及功能=Overview Corel SCRIPT application commands and functions>main
+3 概觀：Corel SCRIPT 程式設計陳述句及功能=Overview Corel SCRIPT programming statements and functions>main
+3 概觀：在 Script 中使用自訂對話方塊=Overview Using custom dialog boxes in scripts>main
+3 概觀：Corel PHOTO-PAINT 錄製及 Script 中的量測單位=Overview Measurement units and coordinates in Corel PHOTOPAINT recordings and scripts>main
+3 概觀：Corel PHOTO-PAINT Script 範例=Overview A Corel PHOTOPAINT script example>main
+3 概觀：OLE 自動化=Overview OLE Automation>main
+3 啟動 Corel SCRIPT 編輯器=Starting the Corel SCRIPT Editor>proc4
+3 存取 Corel SCRIPT 編輯器線上說明=Accessing the Corel SCRIPT Editor online Help>proc4
+2 使用 Visual Basic for Applications
+3 概觀：使用 Visual Basic for Applications=Overview Using Visual Basic for Applications>main
+3 使用 Visual Basic for Applications 建立自動化專案=Creating an automation project with Visual Basic for Applications>proc4
+3 執行 Visual Basic 自動化專案=Running a Visual Basic automation project>proc4
+1 自訂 Corel 應用程式
+2 概觀：自訂 Corel 應用程式=Overview Customizing Corel applications>main
+2 自訂工作空間設定
+3 概觀：自訂工作空間設定=Overview Customizing workspace settings>main
+3 選擇 Corel PHOTO-PAINT 啟動選項=Choosing Corel PHOTOPAINT startup options>proc4
+3 保持對話方塊的位置=Maintaining the position of a dialog box>proc4
+3 選擇游標類型=Choosing the cursor type>proc4
+2 自訂快速鍵
+3 概觀：自訂快速鍵=Overview Customizing keyboard shortcuts>main
+3 指定及刪除快速鍵=Assigning and deleting keyboard shortcuts>proc4
+3 列印快速鍵=Printing keyboard shortcuts>proc4
+3 將快速鍵儲存成其他程式可讀取的格式=Saving keyboard shortcuts in a format readable by other programs>proc4
+2 自訂功能表
+3 概觀：自訂功能表=Overview Customizing menus>main
+3 改變功能表的順序=Changing the order of menus>proc4
+3 改變功能表指令的順序=Changing the order of menu commands>proc4
+3 新增、移除及更名功能表=Adding removing and renaming menus>proc4
+3 新增、移除及更名功能表指令=Adding removing and renaming menu commands>proc4
+3 新增及移除功能表指令分隔符號=Adding and removing menu command separators>proc4
+3 改變功能表及功能表指令捷徑=Changing menu and menu command shortcuts>proc4
+2 自訂色盤
+3 概觀：自訂色盤=Overview Customizing a Color Palette>main
+3 設定色盤的滑鼠右鍵功能表=Setting the right mouse button menu of a Color Palette>proc4
+3 改變色盤邊框的寬度=Changing the border width of a Color Palette>proc4
+3 改變色彩樣本的大小=Resizing color swatches>proc4
+3 改變色盤固定時的列數=Changing the number of Color Palette rows when docked>proc4
+2 自訂工具列
+3 概觀：自訂工具列=Overview Customizing toolbars>main
+3 移動及改變工具列的大小=Moving and resizing a toolbar>proc4
+3 檢視工具列=Viewing a toolbar>proc4
+3 檢視或隱藏浮動工具列上的標題=Viewing or hiding titles on floating toolbars>proc4
+3 改變工具列按鈕及按鈕邊框的大小=Resizing toolbar buttons and button borders>proc4
+3 恢復內建工具列=Restoring builtin toolbars>proc4
+3 建立及刪除自訂工具列=Creating and deleting a custom toolbar>proc4
+3 更名自訂工具列=Renaming a custom toolbar>proc4
+3 新增工具列項目至自訂工具列=Adding toolbar items to a custom toolbar>proc4
+3 從自訂工具列移除工具列項目=Removing toolbar items from a custom toolbar>proc4
+3 重新排列自訂工具列中的工具列項目=Rearranging toolbar items on a custom toolbar>proc4
+3 移動及複製自訂工具列的工具列項目=Moving and copying toolbar items from a custom toolbar>proc4
+3 改變所有工具列按鈕的外觀=Changing the appearance of all toolbar buttons>proc4
+3 改變個別工具列按鈕的外觀=Changing the appearance of individual toolbar buttons>proc4
+3 編輯及恢復工具列按鈕=Editing and restoring toolbar buttons>proc4
+2 自訂屬性列
+3 概觀：自訂屬性列=Overview Customizing the Property Bar>main
+3 移動及改變屬性列的大小=Moving and resizing the Property Bar>proc4
+3 設定自訂屬性列=Setting up a custom Property Bar>proc4
+2 自訂狀態列
+3 概觀：自訂狀態列=Overview Customizing the Status Bar>main
+3 移動、恢復及改變狀態列的大小=Moving resizing and restoring the Status Bar>proc4
+3 隱藏或顯示狀態列=Hiding or displaying the Status Bar>proc4
+3 改變狀態列的內容=Changing the contents of the Status Bar>proc4
+2 自訂過濾器
+3 概觀：自訂過濾器=Overview Customizing filters>main
+3 新增及移除過濾器=Adding and removing filters>proc4
+3 改變過濾器清單的順序=Changing the order of the list of filters>proc4
+3 重設過濾器為預設值=Resetting filters to default settings>proc4
+2 自訂檔案關聯
+3 概觀：自訂檔案關聯=Overview Customizing file associations>main
+3 建立 Corel PHOTO-PAINT 的關聯檔案類型=Associating a file type with Corel PHOTOPAINT>proc4
+3 重設檔案關聯為預設值=Resetting file associations to default settings>proc4
+1 列印
+2 概觀：列印=Overview Printing>main
+2 設定列印工作
+3 概觀：設定列印工作=Overview Setting up a print job>main
+3 列印文件=Printing a document>proc4
+3 選取與設定列印設備組態=Selecting and configuring a printing device>proc4
+3 選取 PPD 檔案=Selecting a PPD file>proc4
+3 使用列印設備色彩描述檔=Using a printing device color profile>proc4
+3 列印多份複本=Printing multiple copies>proc4
+3 指定列印的文件=Specifying the documents to print>proc4
+3 用拼接方式列印大型圖片=Printing large print jobs as tiles>proc4
+3 使用列印樣式=Using printing styles>proc4
+3 使用印前檢查=Using Preflight>proc4
+2 使用預摺版面
+3 概觀：使用預摺版面=Overview Using imposition layouts>main
+3 選擇預摺版面=Choosing imposition layouts>proc4
+3 建立、編輯和刪除預摺版面=Creating editing and deleting imposition layouts>proc4
+3 使用裝訂方式=Using binding methods>proc4
+3 使用自訂的裝訂方式=Using the custom binding method>proc4
+3 設定頁面分組速率=Setting the page group rate>proc4
+3 排列簽名的頁面=Arranging the pages on a signature>proc4
+3 變更欄間距大小=Changing gutter size>proc4
+3 設定剪下和摺疊記號=Setting cut and fold marks>proc4
+3 調整邊界大小=Adjusting margin sizes>proc4
+2 列印工作的預覽、調整大小及設定位置
+3 概觀：列印工作的預覽、調整大小及設定位置=Overview Previewing sizing and positioning a print job>main
+3 預覽列印工作=Previewing a print job>proc4
+3 從最小預覽視窗預覽工作=Previewing a job from the Mini Preview window>proc4
+3 自訂預覽列印=Customizing a print preview>proc4
+3 調整列印工作的大小=Sizing a print job>proc4
+3 設定列印工作的位置=Positioning a print job>proc4
+2 使用 PostScript 將列印工作最佳化
+3 概觀：使用 PostScript 將列印工作最佳化=Overview Using PostScript to optimize a print job>main
+3 使用 PostScript 2 或 3=Using PostScript 2 or 3>proc4
+3 列印複雜的列印工作=Printing complex print jobs>proc4
+3 包含 PDF 記號=Including PDF marks>proc4
+3 列印彩色點陣圖=Printing color bitmaps>proc4
+2 微調列印工作
+3 概觀：微調列印工作=Overview Finetuning a print job>main
+3 以小區塊列印點陣圖=Printing bitmaps in small chunks>proc4
+3 以灰階列印彩色圖片=Printing color print jobs in grayscale>proc4
+3 輸出彩色點陣圖=Outputting color bitmaps>proc4
+3 從列印對話方塊縮減取樣點陣圖=Downsampling bitmaps from the Print dialog box>proc4
+3 控制印表機佇列=Controlling printer bands>proc4
+3 控制填色剪輯=Controlling fill clipping>proc4
+2 商業列印
+3 概觀：商業列印=Overview Commercial printing>main
+3 準備商業印刷的列印工作
+4 概觀：準備商業印刷的列印工作=Overview Preparing a print job for a commercial press>main
+4 列印至檔案=Printing to a file>proc4
+4 列印負片=Printing negative film>proc4
+4 列印感光面朝下的底片=Printing film with the emulsion down>proc4
+4 設定出血限制=Setting a bleed limit>proc4
+4 列印裁切/摺疊記號和準星記號=Printing cropfold marks and registration marks>proc4
+4 列印彩色校正列及濃度計比例=Printing color calibration bars and densitometer scales>proc4
+4 列印頁碼及檔案資訊=Printing page numbers and file information>proc4
+4 設定印表機記號的位置=Positioning printers marks>proc4
+4 列印工作資訊表=Printing a job information sheet>proc4
+3 處理點陣圖及半色調網點
+4 概觀：處理點陣圖及半色調網點=Overview Working with bitmaps and halftone screens>main
+4 設定半色調網點頻率=Setting the halftone screen frequency>proc4
+4 概觀：使用開放式印前介面=Overview Using Open Prepress Interface>main
+3 建立分色
+4 概觀：建立分色=Overview Creating color separations>main
+4 列印分色=Printing color separations>proc4
+4 將特別色轉換成印刷色彩=Converting spot colors to process colors>proc4
+4 確認列印時可預測的色彩=Ensuring predictable color when printing>proc4
+4 概觀：列印半色調=Overview Printing color halftones>main
+4 自訂半色調網點=Customizing a halftone screen>proc4
+1 輸入、輸出與 OLE
+2 概觀：輸入、輸出與 OLE=Overview Importing exporting and OLE>main
+2 輸入與輸出檔案
+3 概觀：輸入與輸出檔案=Overview Importing and exporting files page 1 of 2>main
+3 輸入與輸出檔案
+4 概觀：開啟檔案=Overview Opening files>main
+4 開啟點陣圖檔案=Open bitmap files>proc4
+4 以非原生性檔案格式開啟影像=Opening images in nonnative file formats>proc4
+4 新增剪輯圖片=Adding clipart>proc4
+3 以非原生性檔案格式輸出與儲存檔案
+4 概觀：以非原生性檔案格式輸出與儲存檔案=Overview Exporting and saving files in nonnative file formats>main
+4 以非原生性檔案格式輸出影像=Exporting images in nonnative file formats>proc4
+2 處理 Kodak Photo CD
+3 概觀：處理 Kodak Photo CD=Overview Working with Kodak Photo CDs>main
+3 開啟 Photo CD 影像=Opening Photo CD Images>proc4
+2 處理壓縮 Postscript
+3 概觀：處理壓縮 Postscript=Overview Working with Encapsulated Postscript>main
+3 輸出 EPS 影像=Exporting a EPS image>proc4
+2 物件連結與嵌入
+3 概觀：物件連結與嵌入=Overview Object linking and embedding>main
+3 連結 ( OLE )
+4 概觀：連結 ( OLE )=Overview Linking OLE>main
+4 連結 OLE 物件=Linking OLE objects>proc4
+4 編輯連結的 OLE 物件=Editing linked OLE objects>proc4
+3 嵌入 ( OLE )
+4 概觀：嵌入 ( OLE )=Overview Embedding OLE>main
+4 嵌入 OLE 物件=Embedding OLE objects>proc4
+4 編輯嵌入的 OLE 物件=Editing embedded OLE objects>proc4
+1 PDF 發行
+2 概觀：PDF 發行=Overview Publishing to PDF>main
+2 發行 PDF 檔
+3 概觀：發行 PDF 檔=Overview Publishing a PDF file>main
+3 選擇檔案名稱及位置=Choosing a file name and location>proc4
+3 選擇 PDF 樣式=Choosing a PDF style>proc4
+3 工作票
+4 概觀：工作票=Overview Job ticketing>main
+4 產生工作票=Generating a job ticket>proc4
+4 設定工作票資訊=Setting up job ticket information>proc4
+2 發行 PDF 物件
+3 概觀：發行 PDF 物件=Overview Publishing PDF objects>main
+3 壓縮點陣圖=Compressing bitmaps>proc4
+3 縮減取樣 PDF 檔中的點陣圖=Downsampling bitmaps in a PDF file>proc4
+3 輸出 ASCII 85 檔及 Binary 檔=Exporting ASCII 85 and binary files>proc4
+2 設定影像選項
+3 概觀：設定影像選項=Overview Setting image options>main
+3 設定 PDF 檔的色彩描述檔=Setting color profiles for PDF files>proc4
+2  發行 PDF 文件
+3 概觀： 發行 PDF 文件=Overview Publishing PDF documents>main
+3 使用超連結=Using hyperlinks>proc4
+3 使用書籤及縮圖=Using bookmarks and thumbnails>proc4
+1 參考資料
+2 詞彙=PAINT Glossary Index
+2 使用 Digimarc 數位浮水印
+3 概觀：使用 Digimarc 數位浮水印=Overview Using Digimarc digital watermarking>main
+3 嵌入浮水印=Embedding a watermark>proc4
+3 偵測浮水印=Detecting a watermark>proc4
+

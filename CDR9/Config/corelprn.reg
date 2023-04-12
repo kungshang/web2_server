@@ -1,0 +1,22 @@
+REGEDIT4
+
+; Registration file for Corel Print Engine 9.0
+; Used by setup program to register Windows Shell
+
+[HKEY_CLASSES_ROOT\.prs]
+@="Corel.PrintStyle"
+
+[HKEY_CLASSES_ROOT\Corel.PrintStyle]
+@="Corel Print Style"
+
+[HKEY_CLASSES_ROOT\Corel.PrintStyle\DefaultIcon]
+@="C:\\Corel\\Graphics9\\PROGRAMS\\DATA\\STYLE.ICO"
+
+[HKEY_CLASSES_ROOT\.csp]
+@="Corel.SBProfile"
+
+[HKEY_CLASSES_ROOT\Corel.SBProfile]
+@="Corel Service Bureau Profile"
+
+[HKEY_CLASSES_ROOT\Corel.SBProfile\DefaultIcon]
+@="C:\\Corel\\Graphics9\\PROGRAMS\\DATA\\STYLE.ICO"

@@ -1,0 +1,19 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\COREL\Media]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\COREL\Media\CorelDRAW 9 Clipart CD (Disk 2)]
+"Path"="C:\\SOURCE PATH"
+"VolumeLabel"="CD9_Clipart"
+"Type"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\COREL\Media\CorelDRAW 9 Photos CD (Disk 3)]
+"Path"="C:\\SOURCE PATH"
+"VolumeLabel"="CD9_Photos"
+"Type"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\COREL\Media\CorelDRAW 9 Program CD (Disk 1)]
+"Path"="C:\\SOURCE PATH"
+"VolumeLabel"="CD9_Program"
+"Type"=dword:00000001
+

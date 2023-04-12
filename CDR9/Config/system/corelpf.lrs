@@ -1,0 +1,1516 @@
+;Corel Language Resource File (LRS)
+
+[US]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="US"
+Thousands=""
+Decimal=""
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize=""
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState="State"
+
+[UK]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="UK"
+Thousands=""
+Decimal=""
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState="County"
+
+[OZ]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="OZ"
+Thousands=""
+Decimal=""
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState="State"
+
+[DE]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="DE"
+Thousands="."
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification="1"
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone="6"
+RightHZone="3"
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace="80"
+MaxSpace="200"
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState="State"
+
+[NL]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop="2.5"
+MarginBottom="2.5"
+MarginLeft="2.5"
+MarginRight="2.5"
+
+Language="NL"
+Thousands="."
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification="0"
+; 0 == Off 1 = On
+Hyphonoff="0"
+; % value
+LeftHZone="8"
+RightHZone="0"
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure (cm.)
+InitialTab="2.5"
+NextTab="1"
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan="1"
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState=""
+
+[FR]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="FR"
+Thousands="."
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff="0"
+; % value
+LeftHZone="10"
+RightHZone="4"
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState=""
+
+[CE]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="CE"
+Thousands=""
+Decimal=""
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize=""
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState="Province"
+
+[CZ]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop="2.5"
+MarginBottom="2.5"
+MarginLeft="2.5"
+MarginRight="2.5"
+
+Language="CZ"
+Thousands=" "
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification="1"
+; 0 == Off 1 = On
+Hyphonoff="0"
+; % value
+LeftHZone="10"
+RightHZone="4"
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure (cm.)
+InitialTab="2.5"
+NextTab="1.25"
+; %value 100% = normal
+MinSpace="60"
+MaxSpace="400"
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState="State"
+
+[RU]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop="2.5"
+MarginBottom="2.5"
+MarginLeft="2.5"
+MarginRight="2.5"
+
+Language="RU"
+Thousands=" "
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification="1"
+; 0 == Off 1 = On
+Hyphonoff="0"
+; % value
+LeftHZone="10"
+RightHZone="4"
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure (cm.)
+InitialTab="2.5"
+NextTab="1.25"
+; %value 100% = normal
+MinSpace="60"
+MaxSpace="400"
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState="State"
+
+[CF]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="CF"
+Thousands="."
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="Letter"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState="Province"
+
+[ES]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="ES"
+Thousands="."
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState=""
+
+[EA]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="EA"
+Thousands=""
+Decimal=""
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="Letter"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState=""
+
+[CA]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="CA"
+Thousands="."
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState=""
+
+[DK]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop="2.5"
+MarginBottom="2.5"
+MarginLeft="2.5"
+MarginRight="2.5"
+
+Language="DK"
+Thousands="."
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification="0"
+; 0 == Off 1 = On
+Hyphonoff="1"
+; % value
+LeftHZone="10"
+RightHZone="4"
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure (cm.)
+InitialTab="1"
+NextTab="1.5"
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState=""
+
+[IT]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop="2"
+MarginBottom="2"
+MarginLeft="2"
+MarginRight="2"
+
+Language="IT"
+Thousands="."
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification="0"
+; 0 == Off 1 = On
+Hyphonoff="0"
+; % value
+LeftHZone="10"
+RightHZone="4"
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure (cm.)
+InitialTab="0"
+NextTab="1"
+; %value 100% = normal
+MinSpace="100"
+MaxSpace="100"
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState="Province"
+
+[SO]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="SO"
+Thousands=" "
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState="State"
+
+[BR]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop="2.5"
+MarginBottom="2.5"
+MarginLeft="2.5"
+MarginRight="2.5"
+
+Language="BR"
+Thousands="."
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification="1"
+; 0 == Off 1 = On
+Hyphonoff="0"
+; % value
+LeftHZone="10"
+RightHZone="4"
+; "Letter" or "A4" are the only supported values.
+PaperSize="A4"
+; In Units of Measure (cm.)
+InitialTab="2.5"
+NextTab="1.5875"
+; %value 100% = normal
+MinSpace="60"
+MaxSpace="400"
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan="1"
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState="State"
+
+[SU]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;Margins in cm.
+MarginTop="1"
+MarginBottom="1"
+MarginLeft="1"
+MarginRight="1"
+
+Language="SU"
+Thousands=" "
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification="0"
+; 0 == Off 1 = On
+Hyphonoff="0"
+; % value
+LeftHZone="7"
+RightHZone="3"
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure (cm.)
+InitialTab="1"
+NextTab="1"
+; %value 100% = normal
+MinSpace="100"
+MaxSpace="100"
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan="1"
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState=""
+
+[NO]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="NO"
+Thousands=" "
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan="1"
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState=""
+
+[SV]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="SV"
+Thousands=" "
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState=""
+
+[AF]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="AF"
+Thousands=","
+Decimal="."
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState=""
+
+[HR]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop="2.5"
+MarginBottom="2.5"
+MarginLeft="2.5"
+MarginRight="2.5"
+
+Language="HR"
+Thousands="."
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab="2.5"
+NextTab="1.25"
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState="State"
+
+[GA]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="GA"
+Thousands=""
+Decimal=""
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState=""
+
+[SD]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="SD"
+Thousands="'"
+Decimal="."
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState=""
+
+[GR]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="GR"
+Thousands="."
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState=""
+
+[MA]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="MA"
+Thousands=" "
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState="State"
+
+[IS]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="IS"
+Thousands="."
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState=""
+
+[PL]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop="2.5"
+MarginBottom="2.5"
+MarginLeft="2.5"
+MarginRight="2.5"
+
+Language="PL"
+Thousands=" "
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab="2.5"
+NextTab="1.25"
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState="State"
+
+[PO]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="PO"
+Thousands="."
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState=""
+
+[SL]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="SL"
+Thousands=" "
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState=""
+
+[TR]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="TR"
+Thousands="."
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState=""
+
+[YK]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop="2.5"
+MarginBottom="2.5"
+MarginLeft="2.5"
+MarginRight="2.5"
+
+Language="YK"
+Thousands=" "
+Decimal=","
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification="1"
+; 0 == Off 1 = On
+Hyphonoff="0"
+; % value
+LeftHZone="10"
+RightHZone="4"
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure (cm.)
+InitialTab="2.5"
+NextTab="1.25"
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState="State"
+
+[ZU]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="ZU"
+Thousands=","
+Decimal="."
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState=""
+
+
+[ST]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="ST"
+Thousands=","
+Decimal="."
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState=""
+
+
+[XH]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="XH"
+Thousands=","
+Decimal="."
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState=""
+
+
+[TN]
+Credit=CR
+Debit=DN
+
+;The following is for WP default initial style
+;
+MarginTop=""
+MarginBottom=""
+MarginLeft=""
+MarginRight=""
+
+Language="TN"
+Thousands=","
+Decimal="."
+; // 0 = left, 1 = full, 2 = center, 3 = right, 4 = full all lines, 5 = reserved
+Justification=""
+; 0 == Off 1 = On
+Hyphonoff=""
+; % value
+LeftHZone=""
+RightHZone=""
+; "Letter" or "A4" are the only supported values
+PaperSize="A4"
+; In Units of Measure
+InitialTab=""
+NextTab=""
+; %value 100% = normal
+MinSpace=""
+MaxSpace=""
+
+; Widow Orphan setting 0 = Off & 1 = On
+
+WidowOrphan=""
+
+; Leading and Asia Wrap are being handled only by the asian market 
+Leading=""
+; Decimal Value
+AsiaWrap=""
+
+; State/Province/County title for Address Book info.
+TitleState=""

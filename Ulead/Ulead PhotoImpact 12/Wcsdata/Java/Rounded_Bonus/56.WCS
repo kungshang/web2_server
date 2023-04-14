@@ -1,0 +1,29 @@
+[Code]
+CLSID={22EC1A03-D628-11D2-AB7C-0000E8498E25}
+[Source]
+File0=53.wcs
+File1=54.wcs
+File2=55.wcs
+[Global]
+Name=[G]
+IconIndex=156
+AttrCount=3
+Attr0=Java Option
+Attr1=Size
+Attr2=Java Preview
+[Java]
+State0=[ST0]
+State1=[ST1]
+State2=[ST2]
+SameText=1
+AlignmentBase=1
+AlignmentX=0
+AlignmentY=2
+
+
+;-- Literal section to be translated --
+[Literal]
+G=Rollover «ö¶s
+ST0=¥¿±`
+ST1=MouseOver
+ST2=MouseDown

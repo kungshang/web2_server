@@ -1,0 +1,55 @@
+#note : command value must match the order of "switch-case" in the code, 
+#       otherwise strange behavior will occur.
+#layout setting
+width=706
+height=516
+xPos=432
+yPos=126
+spacing=0
+fontname=新細明體
+fontsize=16
+
+[ExpressFix]
+on=1
+command=0
+comment=< 快速修片模式
+
+[FullEdit]
+on=1
+command=1
+comment=< 全功能編輯模式
+
+[Web]
+on=1
+command=2
+comment=< 網頁設計
+
+[VideoDVD]
+on=1
+command=3
+comment=< DVD 選單製作
+
+[ManagePhoto]
+on=1
+command=4
+comment=< 相片管理
+
+[GetPhoto]
+on=1
+command=5
+comment=< 取得相片
+
+[CreateNewImage]
+on=1
+command=6
+comment=< 建立新影像
+
+[Project]
+on=1
+command=7
+comment=< 創意影像範本
+
+[Exit]
+on=1
+command=10
+comment=< 結束

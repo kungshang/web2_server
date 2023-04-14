@@ -1,0 +1,21 @@
+Add Frame::新增邊框
+Apply Browser-safe Palette::套用瀏覽器安全色盤
+Apply Fadeout Effect::套用淡出特效
+Auto-process::自動處理
+Beautify Skin::美化皮膚
+Crystal::水晶
+Emboss::浮雕
+Enhance Clarity::改善清澈度
+Enhance Overexposed Photo::改善曝光過度的相片
+Enhance Underexposed Photo::改善曝光不足的相片
+Image Optimizer::影像最佳化程式
+Leather Art::皮革藝術
+Make Button::製作按鈕
+Monochrome::單色
+Painting::繪圖
+Painting On The Wall::在牆上繪圖
+Pointilize Effect::點畫特效
+Sepia Tone Photo::深褐色調相片
+Shadow::陰影
+Soft Lens::柔和鏡頭
+Soft Spot::柔和聚光

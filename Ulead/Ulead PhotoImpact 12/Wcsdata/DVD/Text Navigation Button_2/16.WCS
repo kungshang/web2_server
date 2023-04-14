@@ -1,0 +1,42 @@
+[Code]
+CLSID={593AFC42-DBC6-46A9-89DE-671907660191}
+[Source]
+File=Text Navigation Button_2.ufo
+Group=wcsComponent16
+[Global]
+Name=[G]
+IconIndex=155
+AttrCount=4
+Attr0=Bar Option
+Attr1=Bar Font
+Attr2=Bar Size
+Attr3=Shadow
+Count=2
+[Literal]
+G=DVD
+L0=最前面
+L1=三角形
+[Layer0]
+Name=[L0]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList=Home
+[Layer1]
+Name=[L1]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList=Traingle
+[Bar]
+Count=4
+DB=1
+SP=5
+ButtonGroupName=wcsComponent15
+AB=0
+AV=1
+AV2=0
+SameWidth=1
+[Button]
+S=0
+BA=0.0000,0.0000,1

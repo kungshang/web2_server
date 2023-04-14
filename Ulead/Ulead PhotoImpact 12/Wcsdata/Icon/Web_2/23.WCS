@@ -1,0 +1,82 @@
+[Code]
+CLSID={593AFC40-DBC6-46A9-89DE-671907660191}
+
+[Source]
+File=Icon_Web_2_23.ufo
+Group=wcsComponent23
+
+[Global]
+Name=[G]
+IconIndex=150
+AttrCount=3
+Attr0=Size
+Attr1=Shadow
+Attr2=Hyperlink
+Count=8
+
+[Literal]
+G=믿��
+L0=쾧 1
+L1=쾧 2
+L2=쾧 3
+L3=쾧 4
+L4=쾧 5
+L5=쾧 6
+L6=쾧 7
+L7=┗퐑
+
+[Layer0]
+Name=[L0]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Ball 1"
+
+[Layer1]
+Name=[L1]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Ball 2"
+
+[Layer2]
+Name=[L2]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Ball 3"
+
+[Layer3]
+Name=[L3]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Ball 4"
+
+[Layer4]
+Name=[L4]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Ball 5"
+
+[Layer5]
+Name=[L5]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Ball 6"
+
+[Layer6]
+Name=[L6]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Ball 7"
+
+[Layer7]
+Name=[L7]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Curve"

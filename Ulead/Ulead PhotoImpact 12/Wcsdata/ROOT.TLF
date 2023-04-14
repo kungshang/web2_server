@@ -1,0 +1,63 @@
+; Root.TLF
+;   Sample Template list file (DATA ROOT)
+;
+[Folders]
+; number of template folders under current folder
+Count=10
+
+[Folder0]		; section is defined as "folder"+index, start at 0
+; physical path under current folder
+Path=Banner
+; localized name of template folder, refer to Liternal [L0]
+Name=[L0]
+
+[Folder1]
+Path=Bullet
+Name=[L1] 		
+
+[Folder2]
+Path=Button
+Name=[L2] 		
+
+[Folder3]
+Path=Bar
+Name=[L3] 		
+
+[Folder4]
+Path=Icon
+Name=[L4] 		
+
+[Folder5]
+Path=Java
+Name=[L5] 		
+
+[Folder6]
+Path=Sep
+Name=[L6] 		
+
+
+[Folder7]
+Path=Lower-Third
+Name=[L7]
+
+[Folder8]
+Path=Title Objects
+Name=[L8]
+
+[Folder9]
+Path=DVD
+Name=[L9]
+ 
+
+[Literal]		; literal section: used to centralize strings that
+		    	; should be localized. Items in this section have 'L' prefix
+L0=橫幅
+L1=項目符號
+L2=按鈕
+L3=按鈕列
+L4=圖示
+L5=Rollover 按鈕
+L6=分隔線
+L7=Lower-Third
+L8=標題物件
+L9=DVD

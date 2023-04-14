@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery name="Sample Gradient" version="1.0">
+	<GradientFormat hue="0" pce="3" mode="0" name="W1" ring="0" filldir="2" fillmodel="0">
+		<color rvalue="255" gvalue="0" bvalue="0" pvalue="0"/>
+		<color rvalue="255" gvalue="153" bvalue="0" pvalue="0"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="3" mode="0" name="W2" ring="0" filldir="2" fillmodel="0">
+		<color rvalue="255" gvalue="153" bvalue="51" pvalue="0"/>
+		<color rvalue="255" gvalue="255" bvalue="0" pvalue="0"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="3" mode="0" name="W3" ring="0" filldir="2" fillmodel="0">
+		<color rvalue="255" gvalue="204" bvalue="0" pvalue="0"/>
+		<color rvalue="255" gvalue="255" bvalue="255" pvalue="0"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="3" mode="0" name="W4" ring="0" filldir="2" fillmodel="0">
+		<color rvalue="255" gvalue="255" bvalue="102" pvalue="0"/>
+		<color rvalue="255" gvalue="204" bvalue="0" pvalue="0"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="3" mode="0" name="W5" ring="0" filldir="2" fillmodel="0">
+		<color rvalue="255" gvalue="204" bvalue="0" pvalue="0"/>
+		<color rvalue="255" gvalue="0" bvalue="153" pvalue="0"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="3" mode="0" name="W6" ring="0" filldir="2" fillmodel="0">
+		<color rvalue="255" gvalue="102" bvalue="51" pvalue="0"/>
+		<color rvalue="153" gvalue="0" bvalue="204" pvalue="0"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="3" mode="0" name="W7" ring="0" filldir="2" fillmodel="0">
+		<color rvalue="153" gvalue="51" bvalue="0" pvalue="0"/>
+		<color rvalue="255" gvalue="51" bvalue="0" pvalue="0"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="3" mode="0" name="W8" ring="0" filldir="2" fillmodel="0">
+		<color rvalue="255" gvalue="51" bvalue="0" pvalue="0"/>
+		<color rvalue="255" gvalue="102" bvalue="204" pvalue="0"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="3" mode="0" name="W9" ring="0" filldir="2" fillmodel="0">
+		<color rvalue="153" gvalue="0" bvalue="102" pvalue="0"/>
+		<color rvalue="255" gvalue="0" bvalue="153" pvalue="0"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="3" mode="0" name="W10" ring="0" filldir="2" fillmodel="0">
+		<color rvalue="153" gvalue="0" bvalue="204" pvalue="0"/>
+		<color rvalue="255" gvalue="0" bvalue="153" pvalue="0"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="3" mode="0" name="W11" ring="0" filldir="2" fillmodel="0">
+		<color rvalue="255" gvalue="255" bvalue="0" pvalue="0"/>
+		<color rvalue="255" gvalue="255" bvalue="255" pvalue="0"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="3" mode="0" name="W12" ring="0" filldir="2" fillmodel="0">
+		<color rvalue="204" gvalue="255" bvalue="0" pvalue="0"/>
+		<color rvalue="255" gvalue="255" bvalue="0" pvalue="0"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="3" mode="0" name="W13" ring="0" filldir="2" fillmodel="0">
+		<color rvalue="255" gvalue="153" bvalue="0" pvalue="0"/>
+		<color rvalue="204" gvalue="255" bvalue="0" pvalue="0"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="3" mode="0" name="W14" ring="0" filldir="2" fillmodel="0">
+		<color rvalue="204" gvalue="102" bvalue="0" pvalue="0"/>
+		<color rvalue="255" gvalue="255" bvalue="51" pvalue="0"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="3" mode="0" name="W15" ring="0" filldir="2" fillmodel="0">
+		<color rvalue="204" gvalue="51" bvalue="0" pvalue="0"/>
+		<color rvalue="255" gvalue="140" bvalue="0" pvalue="0"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="3" mode="0" name="W16" ring="0" filldir="2" fillmodel="0">
+		<color rvalue="255" gvalue="102" bvalue="51" pvalue="0"/>
+		<color rvalue="255" gvalue="255" bvalue="255" pvalue="0"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="3" mode="0" name="W17" ring="0" filldir="2" fillmodel="0">
+		<color rvalue="255" gvalue="0" bvalue="0" pvalue="0"/>
+		<color rvalue="255" gvalue="255" bvalue="255" pvalue="0"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="3" mode="0" name="W18" ring="0" filldir="2" fillmodel="0">
+		<color rvalue="255" gvalue="0" bvalue="255" pvalue="0"/>
+		<color rvalue="255" gvalue="51" bvalue="51" pvalue="0"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="3" mode="0" name="W19" ring="0" filldir="2" fillmodel="0">
+		<color rvalue="255" gvalue="0" bvalue="0" pvalue="0"/>
+		<color rvalue="204" gvalue="153" bvalue="0" pvalue="0"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="3" mode="0" name="W20" ring="0" filldir="2" fillmodel="0">
+		<color rvalue="196" gvalue="0" bvalue="0" pvalue="0"/>
+		<color rvalue="255" gvalue="255" bvalue="0" pvalue="0"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="2" mode="2128" name="W21" ring="280" filldir="2" fillmodel="0">
+		<color bvalue="0" gvalue="191" pvalue="52" rvalue="255"/>
+		<color bvalue="0" gvalue="255" pvalue="180" rvalue="255"/>
+	</GradientFormat>
+	<GradientFormat hue="193" pce="3" mode="2128" name="W22" ring="0" filldir="2" fillmodel="0">
+		<color bvalue="255" gvalue="128" pvalue="0" rvalue="0"/>
+		<color bvalue="255" gvalue="255" pvalue="128" rvalue="0"/>
+		<color bvalue="255" gvalue="128" pvalue="222" rvalue="0"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="2" mode="2128" name="W23" ring="0" filldir="2" fillmodel="0">
+		<color bvalue="40" gvalue="128" pvalue="0" rvalue="255"/>
+		<color bvalue="0" gvalue="255" pvalue="128" rvalue="255"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="2" mode="2128" name="W24" ring="0" filldir="2" fillmodel="0">
+		<color bvalue="13" gvalue="118" pvalue="0" rvalue="183"/>
+		<color bvalue="0" gvalue="255" pvalue="132" rvalue="255"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="2" mode="2128" name="W25" ring="0" filldir="2" fillmodel="0">
+		<color bvalue="255" gvalue="255" pvalue="128" rvalue="255"/>
+		<color bvalue="60" gvalue="206" pvalue="253" rvalue="255"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="2" mode="2128" name="W26" ring="0" filldir="2" fillmodel="0">
+		<color bvalue="0" gvalue="64" pvalue="0" rvalue="255"/>
+		<color bvalue="199" gvalue="120" pvalue="128" rvalue="255"/>
+	</GradientFormat>
+	<GradientFormat hue="244" pce="2" mode="2128" name="W27" ring="0" filldir="2" fillmodel="0">
+		<color bvalue="47" gvalue="255" pvalue="0" rvalue="0"/>
+		<color bvalue="128" gvalue="255" pvalue="128" rvalue="20"/>
+	</GradientFormat>
+	<GradientFormat hue="147" pce="2" mode="2128" name="W28" ring="0" filldir="2" fillmodel="0">
+		<color bvalue="255" gvalue="255" pvalue="125" rvalue="255"/>
+		<color bvalue="222" gvalue="130" pvalue="251" rvalue="5"/>
+	</GradientFormat>
+	<GradientFormat hue="269" pce="2" mode="2128" name="W29" ring="280" filldir="2" fillmodel="0">
+		<color bvalue="13" gvalue="118" pvalue="52" rvalue="183"/>
+		<color bvalue="0" gvalue="255" pvalue="180" rvalue="255"/>
+	</GradientFormat>
+	<GradientFormat hue="0" pce="2" mode="2128" name="W30" ring="0" filldir="2" fillmodel="0">
+	<color bvalue="0" gvalue="0" pvalue="121" rvalue="255"/>
+	<color bvalue="0" gvalue="33" pvalue="236" rvalue="103"/>
+</GradientFormat>
+</gallery>

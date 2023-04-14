@@ -1,0 +1,45 @@
+[Code]
+CLSID={22EC1A00-D628-11D2-AB7C-0000E8498E25}
+[Source]
+File=Icon_Mailing_14.ufo
+Group=wcsComponent14
+[Global]
+Name=[G]
+IconIndex=150
+AttrCount=2
+Attr0=Size
+Attr1=Shadow
+Count=4
+[Layer0]
+Name=[L0]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Subject"
+[Layer1]
+Name=[L1]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+GroupList="First Document"
+[Layer2]
+Name=[L2]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Second Document"
+[Layer3]
+Name=[L3]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Third Document"
+
+
+;-- Literal section to be translated --
+[Literal]
+G=圖示
+L0=主題
+L1=文件1
+L2=文件2
+L3=文件3

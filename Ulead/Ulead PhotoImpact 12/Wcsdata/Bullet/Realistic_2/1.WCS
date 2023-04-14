@@ -1,0 +1,24 @@
+[Code]
+CLSID={22EC1A00-D628-11D2-AB7C-0000E8498E25}
+[Source]
+File=Bullet_Realistic_2_1.UFO
+Group=wcsComponent1
+[Global]
+Name=[G]
+IconIndex=151
+AttrCount=2
+Attr0=Size
+Attr1=Shadow
+Count=1
+[Layer0]
+Name=[L0]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Nib"
+
+
+;-- Literal section to be translated --
+[Literal]
+G=¶µ¥Ø²Å¸¹
+L0=µ§¦y

@@ -1,0 +1,57 @@
+[Code]
+CLSID={22EC1A00-D628-11D2-AB7C-0000E8498E25}
+
+[Source]
+File=Sep_Christmas_Bonus_1.ufo
+Group=wcsComponent1
+
+[Global]
+Name=[G]
+IconIndex=152
+AttrCount=2
+Attr0=Size
+Attr1=Shadow
+Count=5
+
+[Literal]
+G=分隔線
+L0=燈 1
+L1=燈 2
+L2=燈 3
+L3=電線
+L4=插座
+
+[Layer0]
+Name=[L0]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Light 1"
+
+[Layer1]
+Name=[L1]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Light 2"
+
+[Layer2]
+Name=[L2]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Light 3"
+
+[Layer3]
+Name=[L3]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="String"
+
+[Layer4]
+Name=[L4]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Sockets"

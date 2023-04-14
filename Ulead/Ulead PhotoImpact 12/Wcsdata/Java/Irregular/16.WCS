@@ -1,0 +1,26 @@
+[Code]
+CLSID={593AFC43-DBC6-46A9-89DE-671907660191}
+[Source]
+File0=13.wcs
+File1=14.wcs
+File2=15.wcs
+[Global]
+Name=[G]
+IconIndex=156
+AttrCount=3
+Attr0=Java Option
+Attr1=Size
+Attr2=Java Preview
+[Literal]
+G=Rollover «ö¶s
+ST0=¥¿±`
+ST1=MouseOver
+ST2=MouseDown
+[Java]
+State0=[ST0]
+State1=[ST1]
+State2=[ST2]
+SameText=1
+AlignmentBase=0
+AlignmentX=1
+AlignmentY=0

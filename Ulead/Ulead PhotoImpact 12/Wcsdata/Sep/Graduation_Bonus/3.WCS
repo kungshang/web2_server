@@ -1,0 +1,56 @@
+[Code]
+CLSID={22EC1A00-D628-11D2-AB7C-0000E8498E25}
+[Source]
+File=Sep_Graduation_Bonus_3.ufo
+Group=wcsComponent3
+[Global]
+Name=[G]
+IconIndex=152
+AttrCount=2
+Attr0=Size
+Attr1=Shadow
+Count=6
+[Literal]
+G=分隔線
+L0=書本 1
+L1=書本 2
+L2=書本 3
+L3=菱形 1
+L4=菱形 2
+L5=桿子
+[Layer0]
+Name=[L0]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Book 1"
+[Layer1]
+Name=[L1]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Book2"
+[Layer2]
+Name=[L2]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Book3"
+[Layer3]
+Name=[L3]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Diamond 1"
+[Layer4]
+Name=[L4]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Diamond 2"
+[Layer5]
+Name=[L5]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Rod"

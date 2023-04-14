@@ -1,0 +1,28 @@
+; Root.LTF
+;   Sample Template list file (BUTTONBAR ROOT)
+;
+[Templates]
+Count=4
+
+[Template0]
+Path=Single Button_1.tdf
+Name=[L1]
+
+[Template1]
+Path=Single Button_2.tdf
+Name=[L2]
+
+[Template2]
+Path=Text Navigation Button_1.tdf
+Name=[L3]
+
+[Template3]
+Path=Text Navigation Button_2.tdf
+Name=[L4]
+
+[Literal]
+L1=³æ¤@«ö¶s_1
+L2=³æ¤@«ö¶s_2
+L3=¤å¦r¨µÄý«ö¶s_1
+L4=¤å¦r¨µÄý«ö¶s_2
+

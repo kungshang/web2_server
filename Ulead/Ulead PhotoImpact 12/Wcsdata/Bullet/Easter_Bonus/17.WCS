@@ -1,0 +1,49 @@
+[Code]
+CLSID={22EC1A00-D628-11D2-AB7C-0000E8498E25}
+
+[Source]
+File=Bullet_Easter_Bonus_17.UFO
+Group=wcsComponent17
+
+[Global]
+Name=[G]
+IconIndex=151
+AttrCount=2
+Attr0=Size
+Attr1=Shadow
+Count=4
+
+[Literal]
+G=項目符號
+L0=裝飾 1
+L1=裝飾 2
+L2=線
+L3=蛋
+
+[Layer0]
+Name=[L0]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Decoration 1"
+
+[Layer1]
+Name=[L1]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Decoration 2"
+
+[Layer2]
+Name=[L2]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Wire"
+
+[Layer3]
+Name=[L3]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Egg"

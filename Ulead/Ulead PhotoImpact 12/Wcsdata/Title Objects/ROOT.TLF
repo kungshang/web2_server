@@ -1,0 +1,27 @@
+; Root.LTF
+;   Sample Template list file (BANNER ROOT)
+;
+[Templates]
+Count=4
+
+[Template0]
+Path=Title Objects_1.tdf
+Name=[L1]
+
+[Template1]
+Path=Title Objects_2.tdf
+Name=[L2]
+
+[Template2]
+Path=Title Objects_3.tdf
+Name=[L3]
+
+[Template3]
+Path=Title Objects_4.tdf
+Name=[L4]
+
+[Literal]
+L1=標題物件_1
+L2=標題物件_2
+L3=標題物件_3
+L4=標題物件_4

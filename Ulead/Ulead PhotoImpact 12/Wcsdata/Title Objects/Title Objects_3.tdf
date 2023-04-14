@@ -1,0 +1,19 @@
+[Path]
+Path=Title Objects_3
+[Preview]
+PreviewImg=Title Objects_3.jpg
+PreviewMask=Title Objects_3.bmp
+[Components]
+Count=4
+[Component0]
+Rectangle=12,39,284,86
+File=1.wcs
+[Component1]
+Rectangle=12,94,284,175
+File=2.wcs
+[Component2]
+Rectangle=12,185,284,236
+File=3.wcs
+[Component3]
+Rectangle=13,266,284,313
+File=4.wcs

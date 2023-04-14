@@ -1,0 +1,45 @@
+[Code]
+CLSID={22EC1A00-D628-11D2-AB7C-0000E8498E25}
+[Source]
+File=Icon_Forum_1_21.ufo
+Group=wcsComponent21
+[Global]
+Name=[G]
+IconIndex=150
+AttrCount=2
+Attr0=Size
+Attr1=Shadow
+Count=4
+[Layer0]
+Name=[L0]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Front Person"
+[Layer1]
+Name=[L1]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Middle Person"
+[Layer2]
+Name=[L2]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Back Person"
+[Layer3]
+Name=[L3]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Screen"
+
+
+;-- Literal section to be translated --
+[Literal]
+G=圖示
+L0=前面的人
+L1=中間的人
+L2=後面的人
+L3=螢幕

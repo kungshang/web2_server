@@ -1,0 +1,49 @@
+[Code]
+CLSID={22EC1A00-D628-11D2-AB7C-0000E8498E25}
+[Source]
+File=Sep_Graduation_Bonus_2.ufo
+Group=wcsComponent2
+[Global]
+Name=[G]
+IconIndex=152
+AttrCount=2
+Attr0=Size
+Attr1=Shadow
+Count=5
+[Literal]
+G=分隔線
+L0=證書 1
+L1=證書 2
+L2=證書 3
+L3=流蘇
+L4=圖案
+[Layer0]
+Name=[L0]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+GroupList="Diploma 1"
+[Layer1]
+Name=[L1]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+GroupList="Diploma 2"
+[Layer2]
+Name=[L2]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+GroupList="Diploma 3"
+[Layer3]
+Name=[L3]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+GroupList="Tassels"
+[Layer4]
+Name=[L4]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Design"

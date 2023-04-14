@@ -1,0 +1,37 @@
+[Path]
+Path=Dot & Dash
+[Preview]
+PreviewImg=Sep_Dot & Dash.jpg
+PreviewMask=Sep_Dot & Dash.bmp
+[Components]
+Count=10
+[Component0]
+Rectangle=11,11,433,37
+File=1.wcs
+[Component1]
+Rectangle=19,49,430,69
+File=2.wcs
+[Component2]
+Rectangle=22,81,420,102
+File=3.wcs
+[Component3]
+Rectangle=17,116,428,135
+File=4.wcs
+[Component4]
+Rectangle=20,150,422,168
+File=5.wcs
+[Component5]
+Rectangle=9,185,439,206
+File=6.wcs
+[Component6]
+Rectangle=10,219,439,241
+File=7.wcs
+[Component7]
+Rectangle=21,255,427,276
+File=8.wcs
+[Component8]
+Rectangle=17,282,432,305
+File=9.wcs
+[Component9]
+Rectangle=14,312,439,341
+File=10.wcs

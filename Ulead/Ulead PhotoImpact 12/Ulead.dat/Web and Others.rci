@@ -1,0 +1,29 @@
+[IIO Tab Name]
+GalleryName=Web 與其他
+Count=3
+Tab1=全部
+Tab2=網路
+Tab3=轉換
+[IIO Type Name]
+Count=32
+[IIO Item Name]
+Count=24
+Item0=按鈕 07
+Item1=套用瀏覽器安全色盤
+Item2=影像最佳化程式
+Item3=按鈕 02
+Item4=按鈕 05
+Item5=按鈕 03
+Item6=按鈕 04
+Item7=按鈕 06
+Item8=按鈕 01
+Item9=按鈕 08
+Item10=黑白 (無)
+Item11=黑白 (擴散)
+Item12=黑白 (分散)
+Item13=16 色
+Item14=灰階
+Item15=256 色
+Item16=RGB 全彩
+Item17=分割成 CMYK
+

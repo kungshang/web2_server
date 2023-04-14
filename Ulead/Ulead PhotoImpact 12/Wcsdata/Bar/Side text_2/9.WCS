@@ -1,0 +1,70 @@
+[Code]
+CLSID={593AFC41-DBC6-46A9-89DE-671907660191}
+[Source]
+File=Bar_Side text_2.UFO
+Group=wcsComponent9
+[Global]
+Name=[G]
+IconIndex=153
+AttrCount=3
+Attr0=Size
+Attr1=Shadow
+Attr2=Hyperlink
+Count=7
+[Literal]
+G=按鈕
+L0=標題
+L1=三角形 1
+L2=三角形 2
+L3=三角形 3
+L4=三角形 4
+L5=三角形 5
+L6=橫條
+[Layer0]
+Name=[L0]
+AttrCount=2
+Attr0=Text
+Attr1=Color
+IconIndex=157
+ObjList="Title"
+TA=0,0
+[Layer1]
+Name=[L1]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Triangle 1"
+[Layer2]
+Name=[L2]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Triangle 2"
+[Layer3]
+Name=[L3]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Triangle 3"
+[Layer4]
+Name=[L4]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Triangle 4"
+[Layer5]
+Name=[L5]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Triangle 5"
+[Layer6]
+Name=[L6]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Bar"
+[Button]
+S=0
+BA=0.6452,0.0690,1
+AutoChangeSize=1

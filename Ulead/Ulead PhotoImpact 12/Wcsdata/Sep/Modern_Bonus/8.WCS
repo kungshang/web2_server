@@ -1,0 +1,31 @@
+[Code]
+CLSID={22EC1A00-D628-11D2-AB7C-0000E8498E25}
+[Source]
+File=Modern_Bonus_8.ufo
+Group=wcsComponent8
+[Global]
+Name=[G]
+IconIndex=152
+AttrCount=2
+Attr0=Size
+Attr1=Shadow
+Count=2
+[Layer0]
+Name=[L0]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Front Strands"
+[Layer1]
+Name=[L1]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Back Strands"
+
+
+;-- Literal section to be translated --
+[Literal]
+G=分隔線
+L0=正面撚線
+L1=背面撚線

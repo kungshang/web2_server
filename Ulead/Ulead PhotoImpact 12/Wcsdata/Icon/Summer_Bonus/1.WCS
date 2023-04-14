@@ -1,0 +1,49 @@
+[Code]
+CLSID={22EC1A00-D628-11D2-AB7C-0000E8498E25}
+[Source]
+File=Icon_Summer_Bonus_1.ufo
+Group=wcsComponent1
+[Global]
+Name=[G]
+IconIndex=150
+AttrCount=2
+Attr0=Size
+Attr1=Shadow
+Count=5
+[Literal]
+G=圖示
+L0=星星
+L1=條紋 1
+L2=條紋 2
+L3=圓球
+L4=旗杆
+[Layer0]
+Name=[L0]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Stars"
+[Layer1]
+Name=[L1]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Stripe 1"
+[Layer2]
+Name=[L2]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Stripe 2"
+[Layer3]
+Name=[L3]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Ball"
+[Layer4]
+Name=[L4]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Pole"

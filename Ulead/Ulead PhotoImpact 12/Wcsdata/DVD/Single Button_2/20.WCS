@@ -1,0 +1,36 @@
+[Code]
+CLSID={593AFC40-DBC6-46A9-89DE-671907660191}
+[Source]
+File=Single Button_2.ufo
+Group=wcsComponent20
+[Global]
+Name=[G]
+IconIndex=150
+AttrCount=3
+Attr0=Size
+Attr1=Shadow
+Attr2=Hyperlink
+Count=3
+[Literal]
+G=DVD
+L0=下一個按鈕
+L1=環
+L2=背景
+[Layer0]
+Name=[L0]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Next Button"
+[Layer1]
+Name=[L1]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Ring"
+[Layer2]
+Name=[L2]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Background"

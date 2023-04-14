@@ -1,0 +1,38 @@
+[Code]
+CLSID={22EC1A00-D628-11D2-AB7C-0000E8498E25}
+[Source]
+File=Icon_Navigator_1_9.UFO
+Group=wcsComponent9
+[Global]
+Name=[G]
+IconIndex=150
+AttrCount=2
+Attr0=Size
+Attr1=Shadow
+Count=3
+[Layer0]
+Name=[L0]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Upper Arrow"
+[Layer1]
+Name=[L1]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Lower Arrow"
+[Layer2]
+Name=[L2]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Center"
+
+
+;-- Literal section to be translated --
+[Literal]
+G=圖示
+L0=上箭頭
+L1=下箭頭
+L2=中央

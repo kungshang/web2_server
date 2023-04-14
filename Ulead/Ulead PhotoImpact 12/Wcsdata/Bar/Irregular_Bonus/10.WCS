@@ -1,0 +1,66 @@
+[Code]
+CLSID={22EC1A02-D628-11D2-AB7C-0000E8498E25}
+[Source]
+File=Irregular_Bonus_10.UFO
+Group=
+[Global]
+Name=[G]
+IconIndex=155
+AttrCount=4
+Attr0=Bar Option
+Attr1=Bar Font
+Attr2=Bar Size
+Attr3=Shadow
+Count=5
+[Layer0]
+Name=[L0]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList=Title
+[Layer1]
+Name=[L1]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList=Upper Panel
+[Layer2]
+Name=[L2]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList=Lower Panel
+[Layer3]
+Name=[L3]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList=Ring
+[Layer4]
+Name=[L4]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList=Ball
+[Bar]
+Count=4
+DB=1
+SP=5
+ButtonGroupName=wcsComponent9
+AB=1
+AV=1
+AV2=0
+SameWidth=1
+[Button]
+S=3,30.0000,0.0000
+BA=-0.1364,-0.1667,1
+
+
+;-- Literal section to be translated --
+[Literal]
+G=按鈕列
+L0=標題
+L1=上面板
+L2=下面板
+L3=圓環
+L4=圓球

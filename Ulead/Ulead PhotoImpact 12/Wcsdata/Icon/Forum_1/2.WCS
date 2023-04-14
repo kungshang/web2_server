@@ -1,0 +1,52 @@
+[Code]
+CLSID={22EC1A00-D628-11D2-AB7C-0000E8498E25}
+[Source]
+File=Icon_Forum_1_2.ufo
+Group=wcsComponent2
+[Global]
+Name=[G]
+IconIndex=150
+AttrCount=2
+Attr0=Size
+Attr1=Shadow
+Count=5
+[Layer0]
+Name=[L0]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Text"
+[Layer1]
+Name=[L1]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+GroupList="Page 1"
+[Layer2]
+Name=[L2]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Page 2"
+[Layer3]
+Name=[L3]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Page 3"
+[Layer4]
+Name=[L4]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Page 4"
+
+
+;-- Literal section to be translated --
+[Literal]
+G=圖示
+L0=文字
+L1=第1頁
+L2=第2頁
+L3=第3頁
+L4=第4頁

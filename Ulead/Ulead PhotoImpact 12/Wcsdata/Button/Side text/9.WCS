@@ -1,0 +1,58 @@
+[Code]
+CLSID={22EC1A01-D628-11D2-AB7C-0000E8498E25}
+[Source]
+File=Button_Side text_9.ufo
+Group=wcsComponent9
+[Global]
+Name=[G]
+IconIndex=153
+AttrCount=2
+Attr0=Size
+Attr1=Shadow
+Count=5
+[Layer0]
+Name=[L0]
+AttrCount=2
+Attr0=Text
+Attr1=Color
+IconIndex=157
+ObjList="Title"
+TA=0,0
+[Layer1]
+Name=[L1]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="First Tree"
+[Layer2]
+Name=[L2]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Second Tree"
+[Layer3]
+Name=[L3]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Third Tree"
+[Layer4]
+Name=[L4]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+ObjList="Ground"
+[Button]
+S=0
+BA=0.4706,0.0606,1
+AutoChangeSize=0
+
+
+;-- Literal section to be translated --
+[Literal]
+G=«ö¶s
+L0=¼ÐÃD
+L1=¾ð¤ì 1
+L2=¾ð¤ì 2
+L3=¾ð¤ì 3
+L4=¦a­±

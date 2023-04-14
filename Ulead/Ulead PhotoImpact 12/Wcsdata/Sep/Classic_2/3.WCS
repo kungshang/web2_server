@@ -1,0 +1,31 @@
+[Code]
+CLSID={22EC1A00-D628-11D2-AB7C-0000E8498E25}
+[Source]
+File=Sep_Classic_2_3.ufo
+Group=wcsComponent3
+[Global]
+Name=[G]
+IconIndex=152
+AttrCount=2
+Attr0=Size
+Attr1=Shadow
+Count=2
+[Layer0]
+Name=[L0]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+GroupList="Green Scrolls"
+[Layer1]
+Name=[L1]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+GroupList="Red Scrolls"
+
+
+;-- Literal section to be translated --
+[Literal]
+G=分隔線
+L0=綠色渦卷
+L1=紅色渦卷

@@ -1,0 +1,57 @@
+[Code]
+CLSID={22EC1A00-D628-11D2-AB7C-0000E8498E25}
+
+[Source]
+File=Sep_Easter_Bonus_10.UFO
+Group=wcsComponent10
+
+[Global]
+Name=[G]
+IconIndex=152
+AttrCount=2
+Attr0=Size
+Attr1=Shadow
+Count=5
+
+[Literal]
+G=分隔線
+L0=蝴蝶結 1
+L1=蝴蝶結 2
+L2=蛋 1
+L3=蛋 2
+L4=陰影
+
+[Layer0]
+Name=[L0]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+GroupList="Bows 1"
+
+[Layer1]
+Name=[L1]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+GroupList="Bows 2"
+
+[Layer2]
+Name=[L2]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+GroupList="Eggs 1"
+
+[Layer3]
+Name=[L3]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+GroupList="Eggs 2"
+
+[Layer4]
+Name=[L4]
+AttrCount=1
+Attr0=Color
+IconIndex=158
+GroupList="Shadow"
